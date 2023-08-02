@@ -1,0 +1,730 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6557177511716166922
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dedcacc6d30e4042a9a3292ff88c063, type: 3}
+  m_Name: ArticyScriptFragments
+  m_EditorClassIdentifier: 
+--- !u!114 &-3263805632914246490
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1174674681, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: LocalizationManager
+  m_EditorClassIdentifier: 
+  OnLanguageChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  mUseLocalization: 0
+  mLanguage: en
+  mThrowOnMissingText: 0
+  mClearOnLanguageSwitch: 1
+  mExportLanguage: en
+--- !u!114 &-3152590132265510921
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac13f39eb2c40ec4395dd25132d12164, type: 3}
+  m_Name: DefaultGlobalVariables
+  m_EditorClassIdentifier: 
+  BoolVariableCache: []
+  IntVariableCache: []
+  StringVariableCache: []
+  LiveBoolVariableCache: []
+  LiveIntVariableCache: []
+  LiveStringVariableCache: []
+  isInitialized: 1
+--- !u!114 &-2354715603928844427
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1655710724, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: HierarchyManager
+  m_EditorClassIdentifier: 
+  serializedNodes:
+  - id: 72057594037927937
+    parent: 0
+    technicalName: Languagegamearticy
+    articyType: Project
+    childCount: 10
+  - id: 216172786292838683
+    parent: 72057594037927937
+    technicalName: ProjectSettings
+    articyType: ProjectSettingsFolder
+    childCount: 4
+  - id: 72057594037928189
+    parent: 216172786292838683
+    technicalName: 
+    articyType: ProjectSettingsFlow
+    childCount: 0
+  - id: 72057594037928186
+    parent: 216172786292838683
+    technicalName: 
+    articyType: ProjectSettingsGeneral
+    childCount: 0
+  - id: 72057594037928187
+    parent: 216172786292838683
+    technicalName: 
+    articyType: ProjectSettingsJourneys
+    childCount: 0
+  - id: 72057594037928188
+    parent: 216172786292838683
+    technicalName: 
+    articyType: ProjectSettingsLocation
+    childCount: 0
+  - id: 216172782840400980
+    parent: 72057594037927937
+    technicalName: GlobalVariables
+    articyType: GlobalVariables
+    childCount: 0
+  - id: 216172783251375095
+    parent: 72057594037927937
+    technicalName: Flow
+    articyType: Flow
+    childCount: 0
+  - id: 216172785005863603
+    parent: 72057594037927937
+    technicalName: Entities
+    articyType: Entities
+    childCount: 5
+  - id: 72057594037929387
+    parent: 216172785005863603
+    technicalName: Ufo_87BEFE1B
+    articyType: EntitiesUserFolder
+    childCount: 6
+  - id: 72057594037929367
+    parent: 72057594037929387
+    technicalName: DialogueSentence1
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930845
+    parent: 72057594037929387
+    technicalName: DialogueSentence2
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930851
+    parent: 72057594037929387
+    technicalName: DialogueSentence3
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930857
+    parent: 72057594037929387
+    technicalName: DialogueSentence4
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930923
+    parent: 72057594037929387
+    technicalName: DialogueSentence4
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930935
+    parent: 72057594037929387
+    technicalName: DialogueSentence4
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037929391
+    parent: 216172785005863603
+    technicalName: Ufo_48C6ABE9
+    articyType: EntitiesUserFolder
+    childCount: 17
+  - id: 72057594037930521
+    parent: 72057594037929391
+    technicalName: ArrivalsEmoji
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930501
+    parent: 72057594037929391
+    technicalName: BaggageClaimEmoji
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930464
+    parent: 72057594037929391
+    technicalName: ColorsEmoji
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930475
+    parent: 72057594037929391
+    technicalName: ContentEmoji
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930623
+    parent: 72057594037929391
+    technicalName: Ntt_2775B577
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930496
+    parent: 72057594037929391
+    technicalName: FlightEmoji
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930459
+    parent: 72057594037929391
+    technicalName: GiveEmoji
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037929430
+    parent: 72057594037929391
+    technicalName: GreetingEmoji
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930439
+    parent: 72057594037929391
+    technicalName: HelpEmoji
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930449
+    parent: 72057594037929391
+    technicalName: LuggageEmoji
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930634
+    parent: 72057594037929391
+    technicalName: Ntt_8596B19E
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930486
+    parent: 72057594037929391
+    technicalName: NumberEmoji
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037931013
+    parent: 72057594037929391
+    technicalName: Ntt_E1CB8B22
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930648
+    parent: 72057594037929391
+    technicalName: Ntt_8C6F4E36
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930444
+    parent: 72057594037929391
+    technicalName: QuestionEmoji
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037929403
+    parent: 72057594037929391
+    technicalName: TravelEmoji
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930613
+    parent: 72057594037929391
+    technicalName: Ntt_45E7BA76
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037929385
+    parent: 216172785005863603
+    technicalName: Ufo_A9D725FA
+    articyType: EntitiesUserFolder
+    childCount: 12
+  - id: 72057594037929397
+    parent: 72057594037929385
+    technicalName: Answer1
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930543
+    parent: 72057594037929385
+    technicalName: Answer2
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930548
+    parent: 72057594037929385
+    technicalName: Answer3
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930558
+    parent: 72057594037929385
+    technicalName: Answer4
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930962
+    parent: 72057594037929385
+    technicalName: Answer5
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930957
+    parent: 72057594037929385
+    technicalName: Answer6
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037929393
+    parent: 72057594037929385
+    technicalName: Dialogue1
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930828
+    parent: 72057594037929385
+    technicalName: Dialogue2
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930823
+    parent: 72057594037929385
+    technicalName: Dialogue3
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930947
+    parent: 72057594037929385
+    technicalName: Dialogue4
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930434
+    parent: 72057594037929385
+    technicalName: Dialogue5
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930952
+    parent: 72057594037929385
+    technicalName: Dialogue6
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037929389
+    parent: 216172785005863603
+    technicalName: Ufo_5A487870
+    articyType: EntitiesUserFolder
+    childCount: 6
+  - id: 72057594037929440
+    parent: 72057594037929389
+    technicalName: Inspectable1
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930583
+    parent: 72057594037929389
+    technicalName: Inspectable2
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930592
+    parent: 72057594037929389
+    technicalName: Inspectable3
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930601
+    parent: 72057594037929389
+    technicalName: Inspectable4
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930998
+    parent: 72057594037929389
+    technicalName: Inspectable5
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037930987
+    parent: 72057594037929389
+    technicalName: Inspectable6
+    articyType: Entity
+    childCount: 0
+  - id: 72057594037929463
+    parent: 216172785005863603
+    technicalName: Ufo_5B63E3AE
+    articyType: EntitiesUserFolder
+    childCount: 1
+  - id: 72057594037929486
+    parent: 72057594037929463
+    technicalName: AirportClerk
+    articyType: Entity
+    childCount: 0
+  - id: 216172782940115884
+    parent: 72057594037927937
+    technicalName: Locations
+    articyType: Locations
+    childCount: 0
+  - id: 216172782386062064
+    parent: 72057594037927937
+    technicalName: Documents
+    articyType: Documents
+    childCount: 0
+  - id: 216172782708290162
+    parent: 72057594037927937
+    technicalName: Journeys
+    articyType: Journeys
+    childCount: 0
+  - id: 216172782815217020
+    parent: 72057594037927937
+    technicalName: TemplateDesign
+    articyType: TemplateDesign
+    childCount: 3
+  - id: 216172785641213376
+    parent: 216172782815217020
+    technicalName: Features
+    articyType: Features
+    childCount: 5
+  - id: 72057594037929342
+    parent: 216172785641213376
+    technicalName: DialogueLineFeature
+    articyType: Feature
+    childCount: 0
+  - id: 72057594037929146
+    parent: 216172785641213376
+    technicalName: EmojiFeature
+    articyType: Feature
+    childCount: 0
+  - id: 72057594037929168
+    parent: 216172785641213376
+    technicalName: FinnishSentenceFeature
+    articyType: Feature
+    childCount: 0
+  - id: 72057594037929306
+    parent: 216172785641213376
+    technicalName: InspectableSentenceFeature
+    articyType: Feature
+    childCount: 0
+  - id: 72057594037929024
+    parent: 216172785641213376
+    technicalName: NPCFeature
+    articyType: Feature
+    childCount: 0
+  - id: 216172782852592046
+    parent: 216172782815217020
+    technicalName: PropertyTemplates
+    articyType: TraitTemplatesFolder
+    childCount: 6
+  - id: 216172785252364728
+    parent: 216172782852592046
+    technicalName: 
+    articyType: TraitTemplatesTypedFolder
+    childCount: 0
+  - id: 216172783051006960
+    parent: 216172782852592046
+    technicalName: 
+    articyType: TraitTemplatesTypedFolder
+    childCount: 0
+  - id: 216172783962167179
+    parent: 216172782852592046
+    technicalName: 
+    articyType: TraitTemplatesTypedFolder
+    childCount: 0
+  - id: 216172785725457481
+    parent: 216172782852592046
+    technicalName: 
+    articyType: TraitTemplatesTypedFolder
+    childCount: 0
+  - id: 216172783022940736
+    parent: 216172782852592046
+    technicalName: 
+    articyType: TraitTemplatesTypedFolder
+    childCount: 0
+  - id: 216172783984629646
+    parent: 216172782852592046
+    technicalName: 
+    articyType: TraitTemplatesTypedFolder
+    childCount: 0
+  - id: 216172784713633229
+    parent: 216172782815217020
+    technicalName: Templates
+    articyType: Templates
+    childCount: 18
+  - id: 216172782925599000
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172785817780125
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172782164859599
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172784493379826
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172786085793667
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172784138869361
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 5
+  - id: 72057594037929371
+    parent: 216172784138869361
+    technicalName: DialogueLine
+    articyType: Template
+    childCount: 0
+  - id: 72057594037929291
+    parent: 216172784138869361
+    technicalName: Emoji
+    articyType: Template
+    childCount: 0
+  - id: 72057594037929258
+    parent: 216172784138869361
+    technicalName: FinnishSentence
+    articyType: Template
+    childCount: 0
+  - id: 72057594037929215
+    parent: 216172784138869361
+    technicalName: InspectableSentence
+    articyType: Template
+    childCount: 0
+  - id: 72057594037929066
+    parent: 216172784138869361
+    technicalName: NPC
+    articyType: Template
+    childCount: 0
+  - id: 216172783944319605
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172782447180314
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172785542236144
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172785234488879
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172785027381783
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172786328477020
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172784576846222
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172783507662867
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172783227679388
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172786225525660
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172784638832577
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172784917004375
+    parent: 216172784713633229
+    technicalName: 
+    articyType: TemplateTypeFolder
+    childCount: 0
+  - id: 216172782503605138
+    parent: 72057594037927937
+    technicalName: 
+    articyType: RuleSets
+    childCount: 1
+  - id: 72057594037928191
+    parent: 216172782503605138
+    technicalName: 
+    articyType: RuleSet
+    childCount: 1
+  - id: 72057594037928194
+    parent: 72057594037928191
+    technicalName: 
+    articyType: RuleSetPackage
+    childCount: 0
+  - id: 216172783392894804
+    parent: 72057594037927937
+    technicalName: Assets
+    articyType: Assets
+    childCount: 5
+  - id: 72057594037928201
+    parent: 216172783392894804
+    technicalName: Ufo_6F5E9717
+    articyType: AssetsUserFolder
+    childCount: 0
+  - id: 72057594037928203
+    parent: 216172783392894804
+    technicalName: Ufo_514E7120
+    articyType: AssetsUserFolder
+    childCount: 0
+  - id: 72057594037928197
+    parent: 216172783392894804
+    technicalName: Ufo_34E04350
+    articyType: AssetsUserFolder
+    childCount: 18
+  - id: 72057594037931148
+    parent: 72057594037928197
+    technicalName: Ast_37387CE6
+    articyType: Asset
+    childCount: 0
+  - id: 72057594037931154
+    parent: 72057594037928197
+    technicalName: Ast_99AF1A93
+    articyType: Asset
+    childCount: 0
+  - id: 72057594037931166
+    parent: 72057594037928197
+    technicalName: Ast_9C2BE120
+    articyType: Asset
+    childCount: 0
+  - id: 72057594037931163
+    parent: 72057594037928197
+    technicalName: Ast_B892F96E
+    articyType: Asset
+    childCount: 0
+  - id: 72057594037931142
+    parent: 72057594037928197
+    technicalName: Ast_F6255BED
+    articyType: Asset
+    childCount: 0
+  - id: 72057594037931157
+    parent: 72057594037928197
+    technicalName: Ast_6264A1CF
+    articyType: Asset
+    childCount: 0
+  - id: 72057594037931169
+    parent: 72057594037928197
+    technicalName: Ast_C69FB87A
+    articyType: Asset
+    childCount: 0
+  - id: 72057594037931181
+    parent: 72057594037928197
+    technicalName: Ast_72B57B7A
+    articyType: Asset
+    childCount: 0
+  - id: 72057594037931178
+    parent: 72057594037928197
+    technicalName: Ast_BDC3FBEC
+    articyType: Asset
+    childCount: 0
+  - id: 72057594037931172
+    parent: 72057594037928197
+    technicalName: Ast_9F07EB79
+    articyType: Asset
+    childCount: 0
+  - id: 72057594037931133
+    parent: 72057594037928197
+    technicalName: Ast_FED774C1
+    articyType: Asset
+    childCount: 0
+  - id: 72057594037931139
+    parent: 72057594037928197
+    technicalName: Ast_F6D6A0F6
+    articyType: Asset
+    childCount: 0
+  - id: 72057594037931160
+    parent: 72057594037928197
+    technicalName: Ast_0F7EE785
+    articyType: Asset
+    childCount: 0
+  - id: 72057594037931136
+    parent: 72057594037928197
+    technicalName: Ast_E19C7FEF
+    articyType: Asset
+    childCount: 0
+  - id: 72057594037931151
+    parent: 72057594037928197
+    technicalName: Ast_7279F5E0
+    articyType: Asset
+    childCount: 0
+  - id: 72057594037931175
+    parent: 72057594037928197
+    technicalName: Ast_A265C7F9
+    articyType: Asset
+    childCount: 0
+  - id: 72057594037931184
+    parent: 72057594037928197
+    technicalName: Ast_8CE9687B
+    articyType: Asset
+    childCount: 0
+  - id: 72057594037931145
+    parent: 72057594037928197
+    technicalName: Ast_763A34A0
+    articyType: Asset
+    childCount: 0
+  - id: 72057594037928205
+    parent: 216172783392894804
+    technicalName: Ufo_4F53BD69
+    articyType: AssetsUserFolder
+    childCount: 0
+  - id: 72057594037928199
+    parent: 216172783392894804
+    technicalName: Ufo_13312DED
+    articyType: AssetsUserFolder
+    childCount: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1676762633, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyDatabase
+  m_EditorClassIdentifier: 
+  mHierarchy: {fileID: -2354715603928844427}
+  mLocalization: {fileID: -3263805632914246490}
+  mInternalProject:
+    mName: LanguageGameArticy
+    mDetailName: 
+    mId: f46e5b9b-7bc5-459d-bdb7-225706fb2332
+    mTechnicalName: Languagegamearticy
+  mImportedAssets:
+  - Assets/Images/Me
+  - Assets/Images/Passport
+  - Assets/Images/No
+  - Assets/Images/England
+  - Assets/Images/You
+  - Assets/Images/Arrivals
+  - Assets/Images/Prohibited
+  - Assets/Images/BaggageClaim
+  - Assets/Images/Flight
+  - Assets/Images/Number
+  - Assets/Images/Contents
+  - Assets/Images/Colors
+  - Assets/Images/Give
+  - Assets/Images/Luggage
+  - Assets/Images/Question
+  - Assets/Images/Help
+  - Assets/Images/Greet
+  - Assets/Images/Travel
+  mDefaultGlobalVariables: {fileID: -3152590132265510921}
+  mScriptFragments: {fileID: -6557177511716166922}
+  mPackages:
+  - PackageName: All objects
+    PackagePath: All objects
+    mIsDefaultPackage: 1

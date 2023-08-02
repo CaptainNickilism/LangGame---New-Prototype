@@ -1,0 +1,2868 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9139583463244383837
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0451364ef159d4e4d9446c3e24b9d1f9, type: 3}
+  m_Name: Ast_F6D6A0F6
+  m_EditorClassIdentifier: 
+  id: 72057594037931139
+  technicalName: Ast_F6D6A0F6
+  parentId: 72057594037928197
+  childrenIds: 
+  mDisplayName: No
+  mFilename: No(0D83).png
+  mOriginalSource: file:///C:/Users/jaakk/Downloads/Language game emojis/No.png
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 40, y: 40}
+  mZIndex: 2
+  mSize: {x: 256, y: 196}
+  mShortId: 4141261046
+  mAssetRefPath: Assets/Images/No
+  mCachedAsset: {fileID: 0}
+  mCategory: 1
+--- !u!114 &-9122184399347705128
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364dcd296d22fe74fa80d87ee21cc00e, type: 3}
+  m_Name: Answer3
+  m_EditorClassIdentifier: 
+  id: 72057594037930548
+  technicalName: Answer3
+  parentId: 72057594037929385
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: Answer3
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 136.5, y: 240.5}
+  mZIndex: 1
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 648022134
+  mTemplate:
+    value:
+      mFinnishSentenceFeature:
+        value:
+          mSentenceText: "Laukkuni on v\xE4rilt\xE4\xE4n punainen."
+          mVoiceoverFile:
+            objectRef: 0
+          mOwnerId: 72057594037930548
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930548
+      mOwnerInstanceId: 0
+--- !u!114 &-8883214779257449933
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364dcd296d22fe74fa80d87ee21cc00e, type: 3}
+  m_Name: Dialogue3
+  m_EditorClassIdentifier: 
+  id: 72057594037930823
+  technicalName: Dialogue3
+  parentId: 72057594037929385
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: Dialogue3
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 164, y: 194}
+  mZIndex: 2
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 2295684176
+  mTemplate:
+    value:
+      mFinnishSentenceFeature:
+        value:
+          mSentenceText: "Mink\xE4 v\xE4rinen laukkusi on?"
+          mVoiceoverFile:
+            objectRef: 0
+          mOwnerId: 72057594037930823
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930823
+      mOwnerInstanceId: 0
+--- !u!114 &-8622482548237487884
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b2e10a1ddfc7524497906516e28aef4, type: 3}
+  m_Name: Inspectable3
+  m_EditorClassIdentifier: 
+  id: 72057594037930592
+  technicalName: Inspectable3
+  parentId: 72057594037929389
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: Inspectable3
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 149, y: 383}
+  mZIndex: 0
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 784161613
+  mTemplate:
+    value:
+      mInspectableSentenceFeature:
+        value:
+          mSentence:
+            objectRef: 72057594037930548
+          mCorrectEmojis:
+            listIds: d109000000000001e0090000000000018a0a000000000001
+          mOwnerId: 72057594037930592
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930592
+      mOwnerInstanceId: 0
+--- !u!114 &-8567032748664466497
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0451364ef159d4e4d9446c3e24b9d1f9, type: 3}
+  m_Name: Ast_9F07EB79
+  m_EditorClassIdentifier: 
+  id: 72057594037931172
+  technicalName: Ast_9F07EB79
+  parentId: 72057594037928197
+  childrenIds: 
+  mDisplayName: Luggage
+  mFilename: Luggage(0DA4).png
+  mOriginalSource: file:///C:/Users/jaakk/Downloads/Language game emojis/Luggage.png
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 260, y: 260}
+  mZIndex: 13
+  mSize: {x: 256, y: 196}
+  mShortId: 2668096377
+  mAssetRefPath: Assets/Images/Luggage
+  mCachedAsset: {fileID: 0}
+  mCategory: 1
+--- !u!114 &-8545451995515179896
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d01a5cf2707f0b45ae2eada7caefb70, type: 3}
+  m_Name: Ntt_2775B577
+  m_EditorClassIdentifier: 
+  id: 72057594037930623
+  technicalName: Ntt_2775B577
+  parentId: 72057594037929391
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: England
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 108.5, y: 81}
+  mZIndex: 23
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 662025591
+  mTemplate:
+    value:
+      mEmojiFeature:
+        value:
+          mMeaning: England
+          mEmojiSprite:
+            objectRef: 72057594037931142
+          mOwnerId: 72057594037930623
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930623
+      mOwnerInstanceId: 0
+--- !u!114 &-8316399429483636046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364dcd296d22fe74fa80d87ee21cc00e, type: 3}
+  m_Name: Answer2
+  m_EditorClassIdentifier: 
+  id: 72057594037930543
+  technicalName: Answer2
+  parentId: 72057594037929385
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: Answer2
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 139.5, y: 215}
+  mZIndex: 1
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 88984589
+  mTemplate:
+    value:
+      mFinnishSentenceFeature:
+        value:
+          mSentenceText: 'Tulen Englannista: Lennon numero 1017'
+          mVoiceoverFile:
+            objectRef: 0
+          mOwnerId: 72057594037930543
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930543
+      mOwnerInstanceId: 0
+--- !u!114 &-8248798266151973893
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d01a5cf2707f0b45ae2eada7caefb70, type: 3}
+  m_Name: BaggageClaimEmoji
+  m_EditorClassIdentifier: 
+  id: 72057594037930501
+  technicalName: BaggageClaimEmoji
+  parentId: 72057594037929391
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: BaggageClaimEmoji
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 280, y: 280}
+  mZIndex: 14
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 3895396131
+  mTemplate:
+    value:
+      mEmojiFeature:
+        value:
+          mMeaning: baggage claim
+          mEmojiSprite:
+            objectRef: 72057594037931154
+          mOwnerId: 72057594037930501
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930501
+      mOwnerInstanceId: 0
+--- !u!114 &-8065707970645453681
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939fcaa968285054d8f816cea96ed185, type: 3}
+  m_Name: Ufo_5A487870
+  m_EditorClassIdentifier: 
+  id: 72057594037929389
+  technicalName: Ufo_5A487870
+  parentId: 216172785005863603
+  childrenIds: e005000000000001570a000000000001600a000000000001690a000000000001eb0b000000000001f60b000000000001
+  mDisplayName: InspectableSentences
+  mExternalId: 
+  mShortId: 1514698864
+  mZIndex: 0
+--- !u!114 &-7392559416145237273
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d01a5cf2707f0b45ae2eada7caefb70, type: 3}
+  m_Name: Ntt_45E7BA76
+  m_EditorClassIdentifier: 
+  id: 72057594037930613
+  technicalName: Ntt_45E7BA76
+  parentId: 72057594037929391
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: You
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 158, y: 124}
+  mZIndex: 22
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 1172814454
+  mTemplate:
+    value:
+      mEmojiFeature:
+        value:
+          mMeaning: you
+          mEmojiSprite:
+            objectRef: 72057594037931145
+          mOwnerId: 72057594037930613
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930613
+      mOwnerInstanceId: 0
+--- !u!114 &-6070384489943351516
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d01a5cf2707f0b45ae2eada7caefb70, type: 3}
+  m_Name: FlightEmoji
+  m_EditorClassIdentifier: 
+  id: 72057594037930496
+  technicalName: FlightEmoji
+  parentId: 72057594037929391
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: FlightEmoji
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 260, y: 260}
+  mZIndex: 13
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 3106904226
+  mTemplate:
+    value:
+      mEmojiFeature:
+        value:
+          mMeaning: flight
+          mEmojiSprite:
+            objectRef: 72057594037931157
+          mOwnerId: 72057594037930496
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930496
+      mOwnerInstanceId: 0
+--- !u!114 &-5564561973495529377
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0451364ef159d4e4d9446c3e24b9d1f9, type: 3}
+  m_Name: Ast_C69FB87A
+  m_EditorClassIdentifier: 
+  id: 72057594037931169
+  technicalName: Ast_C69FB87A
+  parentId: 72057594037928197
+  childrenIds: 
+  mDisplayName: Give
+  mFilename: Give(0DA1).png
+  mOriginalSource: file:///C:/Users/jaakk/Downloads/Language game emojis/Give.png
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 240, y: 240}
+  mZIndex: 12
+  mSize: {x: 256, y: 196}
+  mShortId: 3332356218
+  mAssetRefPath: Assets/Images/Give
+  mCachedAsset: {fileID: 0}
+  mCategory: 1
+--- !u!114 &-5138755207356225665
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939fcaa968285054d8f816cea96ed185, type: 3}
+  m_Name: Ufo_6F5E9717
+  m_EditorClassIdentifier: 
+  id: 72057594037928201
+  technicalName: Ufo_6F5E9717
+  parentId: 216172783392894804
+  childrenIds: 
+  mDisplayName: Audio
+  mExternalId: 
+  mShortId: 1868470039
+  mZIndex: 0
+--- !u!114 &-4475212531593075454
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d01a5cf2707f0b45ae2eada7caefb70, type: 3}
+  m_Name: ContentEmoji
+  m_EditorClassIdentifier: 
+  id: 72057594037930475
+  technicalName: ContentEmoji
+  parentId: 72057594037929391
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: ContentEmoji
+  mColor: {r: 1, g: 0.52711517, b: 0, a: 1}
+  mText: Content / items
+  mExternalId: 
+  mPosition: {x: 180, y: 180}
+  mZIndex: 9
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 3693323132
+  mTemplate:
+    value:
+      mEmojiFeature:
+        value:
+          mMeaning: content
+          mEmojiSprite:
+            objectRef: 72057594037931163
+          mOwnerId: 72057594037930475
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930475
+      mOwnerInstanceId: 0
+--- !u!114 &-4366255572466161440
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364dcd296d22fe74fa80d87ee21cc00e, type: 3}
+  m_Name: Dialogue4
+  m_EditorClassIdentifier: 
+  id: 72057594037930947
+  technicalName: Dialogue4
+  parentId: 72057594037929385
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: Dialogue4
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 181.5, y: 336.5}
+  mZIndex: 2
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 2786700429
+  mTemplate:
+    value:
+      mFinnishSentenceFeature:
+        value:
+          mSentenceText: "Mik\xE4 on sinun lentosi numero?"
+          mVoiceoverFile:
+            objectRef: 0
+          mOwnerId: 72057594037930947
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930947
+      mOwnerInstanceId: 0
+--- !u!114 &-4053093229855799329
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8be440da0ea6c294a9451481b5884cfa, type: 3}
+  m_Name: DialogueSentence2
+  m_EditorClassIdentifier: 
+  id: 72057594037930845
+  technicalName: DialogueSentence2
+  parentId: 72057594037929387
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: DialogueSentence2
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 127, y: 135.5}
+  mZIndex: 0
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 3887239345
+  mTemplate:
+    value:
+      mDialogueLineFeature:
+        value:
+          mSentence:
+            objectRef: 72057594037930828
+          mAnswer:
+            objectRef: 72057594037930583
+          mHintEmojis:
+            listIds: 750a000000000001000a000000000001f609000000000001cc09000000000001
+          mOwnerId: 72057594037930845
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930845
+      mOwnerInstanceId: 0
+--- !u!114 &-3788561352084507472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d01a5cf2707f0b45ae2eada7caefb70, type: 3}
+  m_Name: LuggageEmoji
+  m_EditorClassIdentifier: 
+  id: 72057594037930449
+  technicalName: LuggageEmoji
+  parentId: 72057594037929391
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: LuggageEmoji
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 80, y: 80}
+  mZIndex: 4
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 652774380
+  mTemplate:
+    value:
+      mEmojiFeature:
+        value:
+          mMeaning: luggage
+          mEmojiSprite:
+            objectRef: 72057594037931172
+          mOwnerId: 72057594037930449
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930449
+      mOwnerInstanceId: 0
+--- !u!114 &-3673470103935728214
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d01a5cf2707f0b45ae2eada7caefb70, type: 3}
+  m_Name: ArrivalsEmoji
+  m_EditorClassIdentifier: 
+  id: 72057594037930521
+  technicalName: ArrivalsEmoji
+  parentId: 72057594037929391
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: ArrivalsEmoji
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 360, y: 360}
+  mZIndex: 18
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 354495478
+  mTemplate:
+    value:
+      mEmojiFeature:
+        value:
+          mMeaning: arrivals
+          mEmojiSprite:
+            objectRef: 72057594037931148
+          mOwnerId: 72057594037930521
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930521
+      mOwnerInstanceId: 0
+--- !u!114 &-3642816118572833259
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0451364ef159d4e4d9446c3e24b9d1f9, type: 3}
+  m_Name: Ast_FED774C1
+  m_EditorClassIdentifier: 
+  id: 72057594037931133
+  technicalName: Ast_FED774C1
+  parentId: 72057594037928197
+  childrenIds: 
+  mDisplayName: Me
+  mFilename: Me(0D7D).png
+  mOriginalSource: file:///C:/Users/jaakk/Downloads/Language game emojis/Me.png
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 0, y: 0}
+  mZIndex: 0
+  mSize: {x: 256, y: 196}
+  mShortId: 4275532993
+  mAssetRefPath: Assets/Images/Me
+  mCachedAsset: {fileID: 0}
+  mCategory: 1
+--- !u!114 &-3445789308823777619
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939fcaa968285054d8f816cea96ed185, type: 3}
+  m_Name: Ufo_4F53BD69
+  m_EditorClassIdentifier: 
+  id: 72057594037928205
+  technicalName: Ufo_4F53BD69
+  parentId: 216172783392894804
+  childrenIds: 
+  mDisplayName: Miscellaneous
+  mExternalId: 
+  mShortId: 1330888041
+  mZIndex: 0
+--- !u!114 &-3370869280977686459
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364dcd296d22fe74fa80d87ee21cc00e, type: 3}
+  m_Name: Dialogue5
+  m_EditorClassIdentifier: 
+  id: 72057594037930434
+  technicalName: Dialogue5
+  parentId: 72057594037929385
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: Dialogue5
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 40, y: 40}
+  mZIndex: 2
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 3160394154
+  mTemplate:
+    value:
+      mFinnishSentenceFeature:
+        value:
+          mSentenceText: Saisinko passinne?
+          mVoiceoverFile:
+            objectRef: 0
+          mOwnerId: 72057594037930434
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930434
+      mOwnerInstanceId: 0
+--- !u!114 &-3339199909347566867
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0451364ef159d4e4d9446c3e24b9d1f9, type: 3}
+  m_Name: Ast_BDC3FBEC
+  m_EditorClassIdentifier: 
+  id: 72057594037931178
+  technicalName: Ast_BDC3FBEC
+  parentId: 72057594037928197
+  childrenIds: 
+  mDisplayName: Help
+  mFilename: Help(0DAA).png
+  mOriginalSource: file:///C:/Users/jaakk/Downloads/Language game emojis/Help.png
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 300, y: 300}
+  mZIndex: 15
+  mSize: {x: 256, y: 196}
+  mShortId: 3183737836
+  mAssetRefPath: Assets/Images/Help
+  mCachedAsset: {fileID: 0}
+  mCategory: 1
+--- !u!114 &-3000518488133750690
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d01a5cf2707f0b45ae2eada7caefb70, type: 3}
+  m_Name: HelpEmoji
+  m_EditorClassIdentifier: 
+  id: 72057594037930439
+  technicalName: HelpEmoji
+  parentId: 72057594037929391
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: HelpEmoji
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 40, y: 40}
+  mZIndex: 2
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 389148476
+  mTemplate:
+    value:
+      mEmojiFeature:
+        value:
+          mMeaning: help
+          mEmojiSprite:
+            objectRef: 72057594037931178
+          mOwnerId: 72057594037930439
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930439
+      mOwnerInstanceId: 0
+--- !u!114 &-2787679125588972158
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0451364ef159d4e4d9446c3e24b9d1f9, type: 3}
+  m_Name: Ast_72B57B7A
+  m_EditorClassIdentifier: 
+  id: 72057594037931181
+  technicalName: Ast_72B57B7A
+  parentId: 72057594037928197
+  childrenIds: 
+  mDisplayName: Greet
+  mFilename: Greet(0DAD).png
+  mOriginalSource: file:///C:/Users/jaakk/Downloads/Language game emojis/Greet.png
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 320, y: 320}
+  mZIndex: 16
+  mSize: {x: 256, y: 196}
+  mShortId: 1924496250
+  mAssetRefPath: Assets/Images/Greet
+  mCachedAsset: {fileID: 0}
+  mCategory: 1
+--- !u!114 &-2168183109174386780
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8be440da0ea6c294a9451481b5884cfa, type: 3}
+  m_Name: DialogueSentence4
+  m_EditorClassIdentifier: 
+  id: 72057594037930857
+  technicalName: DialogueSentence4
+  parentId: 72057594037929387
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: DialogueSentence4
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 124, y: 147.5}
+  mZIndex: 0
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 3138723757
+  mTemplate:
+    value:
+      mDialogueLineFeature:
+        value:
+          mSentence:
+            objectRef: 72057594037930947
+          mAnswer:
+            objectRef: 72057594037930601
+          mHintEmojis:
+            listIds: 750a000000000001eb09000000000001980a000000000001d109000000000001cc09000000000001
+          mOwnerId: 72057594037930857
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930857
+      mOwnerInstanceId: 0
+--- !u!114 &-1876359040658915363
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b2e10a1ddfc7524497906516e28aef4, type: 3}
+  m_Name: Inspectable4
+  m_EditorClassIdentifier: 
+  id: 72057594037930601
+  technicalName: Inspectable4
+  parentId: 72057594037929389
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: Inspectable4
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 159.5, y: 393.5}
+  mZIndex: 0
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 1912251415
+  mTemplate:
+    value:
+      mInspectableSentenceFeature:
+        value:
+          mSentence:
+            objectRef: 72057594037930558
+          mCorrectEmojis:
+            listIds: 8a0a000000000001980a000000000001eb09000000000001d109000000000001
+          mOwnerId: 72057594037930601
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930601
+      mOwnerInstanceId: 0
+--- !u!114 &-1529598102361014235
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8be440da0ea6c294a9451481b5884cfa, type: 3}
+  m_Name: DialogueSentence4
+  m_EditorClassIdentifier: 
+  id: 72057594037930923
+  technicalName: DialogueSentence4
+  parentId: 72057594037929387
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: DialogueSentence5
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 141.5, y: 158.5}
+  mZIndex: 0
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 1852622594
+  mTemplate:
+    value:
+      mDialogueLineFeature:
+        value:
+          mSentence:
+            objectRef: 72057594037930434
+          mAnswer:
+            objectRef: 72057594037930998
+          mHintEmojis:
+            listIds: db09000000000001750a000000000001050c000000000001cc09000000000001
+          mOwnerId: 72057594037930923
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930923
+      mOwnerInstanceId: 0
+--- !u!114 &-1525063340844423972
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939fcaa968285054d8f816cea96ed185, type: 3}
+  m_Name: Ufo_A9D725FA
+  m_EditorClassIdentifier: 
+  id: 72057594037929385
+  technicalName: Ufo_A9D725FA
+  parentId: 216172785005863603
+  childrenIds: b105000000000001b505000000000001c2090000000000012f0a000000000001340a0000000000013e0a000000000001470b0000000000014c0b000000000001c30b000000000001c80b000000000001cd0b000000000001d20b000000000001
+  mDisplayName: FinnishSentences
+  mExternalId: 
+  mShortId: 2849449466
+  mZIndex: 0
+--- !u!114 &-1206768645706557582
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939fcaa968285054d8f816cea96ed185, type: 3}
+  m_Name: Ufo_34E04350
+  m_EditorClassIdentifier: 
+  id: 72057594037928197
+  technicalName: Ufo_34E04350
+  parentId: 216172783392894804
+  childrenIds: 7d0c000000000001800c000000000001830c000000000001860c000000000001890c0000000000018c0c0000000000018f0c000000000001920c000000000001950c000000000001980c0000000000019b0c0000000000019e0c000000000001a10c000000000001a40c000000000001a70c000000000001aa0c000000000001ad0c000000000001b00c000000000001
+  mDisplayName: Images
+  mExternalId: 
+  mShortId: 887112528
+  mZIndex: 0
+--- !u!114 &-898644525174461362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0451364ef159d4e4d9446c3e24b9d1f9, type: 3}
+  m_Name: Ast_F6255BED
+  m_EditorClassIdentifier: 
+  id: 72057594037931142
+  technicalName: Ast_F6255BED
+  parentId: 72057594037928197
+  childrenIds: 
+  mDisplayName: England
+  mFilename: England(0D86).png
+  mOriginalSource: file:///C:/Users/jaakk/Downloads/Language game emojis/England.png
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 60, y: 60}
+  mZIndex: 3
+  mSize: {x: 256, y: 196}
+  mShortId: 4129643501
+  mAssetRefPath: Assets/Images/England
+  mCachedAsset: {fileID: 0}
+  mCategory: 1
+--- !u!114 &-699613144631362335
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0451364ef159d4e4d9446c3e24b9d1f9, type: 3}
+  m_Name: Ast_763A34A0
+  m_EditorClassIdentifier: 
+  id: 72057594037931145
+  technicalName: Ast_763A34A0
+  parentId: 72057594037928197
+  childrenIds: 
+  mDisplayName: You
+  mFilename: You(0D89).png
+  mOriginalSource: file:///C:/Users/jaakk/Downloads/Language game emojis/You.png
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 80, y: 80}
+  mZIndex: 4
+  mSize: {x: 256, y: 196}
+  mShortId: 1983526048
+  mAssetRefPath: Assets/Images/You
+  mCachedAsset: {fileID: 0}
+  mCategory: 1
+--- !u!114 &-685170664981550876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b2e10a1ddfc7524497906516e28aef4, type: 3}
+  m_Name: Inspectable6
+  m_EditorClassIdentifier: 
+  id: 72057594037930987
+  technicalName: Inspectable6
+  parentId: 72057594037929389
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: Inspectable6
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 176.5, y: 397}
+  mZIndex: 0
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 38322643
+  mTemplate:
+    value:
+      mInspectableSentenceFeature:
+        value:
+          mSentence:
+            objectRef: 72057594037930957
+          mCorrectEmojis:
+            listIds: d605000000000001
+          mOwnerId: 72057594037930987
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930987
+      mOwnerInstanceId: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1919818469, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: All objects
+  m_EditorClassIdentifier: 
+  mPackagePath: Assets/ArticyImporter/Content/Generated/Resources/All objects.asset
+  mResourceKey: All objects
+  mObjects:
+  - {fileID: 6549245460053408090}
+  - {fileID: 6100845289181979548}
+  - {fileID: -3370869280977686459}
+  - {fileID: -8316399429483636046}
+  - {fileID: -9122184399347705128}
+  - {fileID: 2541271944787522501}
+  - {fileID: -8883214779257449933}
+  - {fileID: 8331466044390474307}
+  - {fileID: -4366255572466161440}
+  - {fileID: 8307753247980742934}
+  - {fileID: 8949651696127829052}
+  - {fileID: 7142951143489981943}
+  - {fileID: 1674564683707126946}
+  - {fileID: -4053093229855799329}
+  - {fileID: 4659421793202329584}
+  - {fileID: -2168183109174386780}
+  - {fileID: -1529598102361014235}
+  - {fileID: 3098420285766730916}
+  - {fileID: 1057719938135937719}
+  - {fileID: 772913596035896420}
+  - {fileID: -8622482548237487884}
+  - {fileID: -1876359040658915363}
+  - {fileID: -685170664981550876}
+  - {fileID: 7298332160221602880}
+  - {fileID: 1621965554210402975}
+  - {fileID: 17516177462255796}
+  - {fileID: -3000518488133750690}
+  - {fileID: 6963550771590349389}
+  - {fileID: -3788561352084507472}
+  - {fileID: 2028192292553115342}
+  - {fileID: 6097300041588177675}
+  - {fileID: -4475212531593075454}
+  - {fileID: 4172529578955416989}
+  - {fileID: -6070384489943351516}
+  - {fileID: -8248798266151973893}
+  - {fileID: -3673470103935728214}
+  - {fileID: -7392559416145237273}
+  - {fileID: -8545451995515179896}
+  - {fileID: 853030424956736952}
+  - {fileID: 1815225408430683807}
+  - {fileID: 2049039105495918427}
+  - {fileID: 4668302518898579334}
+  - {fileID: -3642816118572833259}
+  - {fileID: 3558687967470029015}
+  - {fileID: -9139583463244383837}
+  - {fileID: -898644525174461362}
+  - {fileID: -699613144631362335}
+  - {fileID: 9162615258524120058}
+  - {fileID: 2726627277784262064}
+  - {fileID: 3241418770665924766}
+  - {fileID: 2772230662663779462}
+  - {fileID: 4325217123727798986}
+  - {fileID: 8397556450766634929}
+  - {fileID: 802330611116069085}
+  - {fileID: -5564561973495529377}
+  - {fileID: -8567032748664466497}
+  - {fileID: 4297011446236596982}
+  - {fileID: -3339199909347566867}
+  - {fileID: -2787679125588972158}
+  - {fileID: 3197702908948038842}
+  - {fileID: -1206768645706557582}
+  - {fileID: 6315017505663684353}
+  - {fileID: -5138755207356225665}
+  - {fileID: 7989359662757572448}
+  - {fileID: -3445789308823777619}
+  - {fileID: -1525063340844423972}
+  - {fileID: 5837502303005571114}
+  - {fileID: -8065707970645453681}
+  - {fileID: 5630141459487224442}
+  - {fileID: 8395674395453390240}
+--- !u!114 &17516177462255796
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d01a5cf2707f0b45ae2eada7caefb70, type: 3}
+  m_Name: GreetingEmoji
+  m_EditorClassIdentifier: 
+  id: 72057594037929430
+  technicalName: GreetingEmoji
+  parentId: 72057594037929391
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: GreetingEmoji
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 20, y: 20}
+  mZIndex: 1
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 4066905198
+  mTemplate:
+    value:
+      mEmojiFeature:
+        value:
+          mMeaning: greeting
+          mEmojiSprite:
+            objectRef: 72057594037931181
+          mOwnerId: 72057594037929430
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037929430
+      mOwnerInstanceId: 0
+--- !u!114 &772913596035896420
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b2e10a1ddfc7524497906516e28aef4, type: 3}
+  m_Name: Inspectable2
+  m_EditorClassIdentifier: 
+  id: 72057594037930583
+  technicalName: Inspectable2
+  parentId: 72057594037929389
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: Inspectable2
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 167, y: 357.5}
+  mZIndex: 0
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 2304767548
+  mTemplate:
+    value:
+      mInspectableSentenceFeature:
+        value:
+          mSentence:
+            objectRef: 72057594037930543
+          mCorrectEmojis:
+            listIds: 000a000000000001f6090000000000017f0a000000000001190a000000000001
+          mOwnerId: 72057594037930583
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930583
+      mOwnerInstanceId: 0
+--- !u!114 &802330611116069085
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0451364ef159d4e4d9446c3e24b9d1f9, type: 3}
+  m_Name: Ast_9C2BE120
+  m_EditorClassIdentifier: 
+  id: 72057594037931166
+  technicalName: Ast_9C2BE120
+  parentId: 72057594037928197
+  childrenIds: 
+  mDisplayName: Colors
+  mFilename: Colors(0D9E).png
+  mOriginalSource: file:///C:/Users/jaakk/Downloads/Language game emojis/Colors.png
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 220, y: 220}
+  mZIndex: 11
+  mSize: {x: 256, y: 196}
+  mShortId: 2620121376
+  mAssetRefPath: Assets/Images/Colors
+  mCachedAsset: {fileID: 0}
+  mCategory: 1
+--- !u!114 &853030424956736952
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d01a5cf2707f0b45ae2eada7caefb70, type: 3}
+  m_Name: Ntt_8596B19E
+  m_EditorClassIdentifier: 
+  id: 72057594037930634
+  technicalName: Ntt_8596B19E
+  parentId: 72057594037929391
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: Me
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 152, y: 68}
+  mZIndex: 24
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 2241245598
+  mTemplate:
+    value:
+      mEmojiFeature:
+        value:
+          mMeaning: Me
+          mEmojiSprite:
+            objectRef: 72057594037931133
+          mOwnerId: 72057594037930634
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930634
+      mOwnerInstanceId: 0
+--- !u!114 &1057719938135937719
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b2e10a1ddfc7524497906516e28aef4, type: 3}
+  m_Name: Inspectable1
+  m_EditorClassIdentifier: 
+  id: 72057594037929440
+  technicalName: Inspectable1
+  parentId: 72057594037929389
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: Inspectable1
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 0, y: 0}
+  mZIndex: 0
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 1594187816
+  mTemplate:
+    value:
+      mInspectableSentenceFeature:
+        value:
+          mSentence:
+            objectRef: 72057594037929397
+          mCorrectEmojis:
+            listIds: d605000000000001c7090000000000018a0a000000000001d109000000000001
+          mOwnerId: 72057594037929440
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037929440
+      mOwnerInstanceId: 0
+--- !u!114 &1621965554210402975
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d01a5cf2707f0b45ae2eada7caefb70, type: 3}
+  m_Name: TravelEmoji
+  m_EditorClassIdentifier: 
+  id: 72057594037929403
+  technicalName: TravelEmoji
+  parentId: 72057594037929391
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: TravelEmoji
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 0, y: 0}
+  mZIndex: 0
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 1062641820
+  mTemplate:
+    value:
+      mEmojiFeature:
+        value:
+          mMeaning: travel
+          mEmojiSprite:
+            objectRef: 72057594037931184
+          mOwnerId: 72057594037929403
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037929403
+      mOwnerInstanceId: 0
+--- !u!114 &1674564683707126946
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8be440da0ea6c294a9451481b5884cfa, type: 3}
+  m_Name: DialogueSentence1
+  m_EditorClassIdentifier: 
+  id: 72057594037929367
+  technicalName: DialogueSentence1
+  parentId: 72057594037929387
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: DialogueSentence1
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 0, y: 0}
+  mZIndex: 0
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 2662214084
+  mTemplate:
+    value:
+      mDialogueLineFeature:
+        value:
+          mSentence:
+            objectRef: 72057594037929393
+          mAnswer:
+            objectRef: 72057594037929440
+          mHintEmojis:
+            listIds: d605000000000001c709000000000001750a000000000001d109000000000001cc09000000000001
+          mOwnerId: 72057594037929367
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037929367
+      mOwnerInstanceId: 0
+--- !u!114 &1815225408430683807
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d01a5cf2707f0b45ae2eada7caefb70, type: 3}
+  m_Name: Ntt_8C6F4E36
+  m_EditorClassIdentifier: 
+  id: 72057594037930648
+  technicalName: Ntt_8C6F4E36
+  parentId: 72057594037929391
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: Prohibited
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 341.5, y: 455}
+  mZIndex: 26
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 2356104758
+  mTemplate:
+    value:
+      mEmojiFeature:
+        value:
+          mMeaning: prohibited
+          mEmojiSprite:
+            objectRef: 72057594037931151
+          mOwnerId: 72057594037930648
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930648
+      mOwnerInstanceId: 0
+--- !u!114 &2028192292553115342
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d01a5cf2707f0b45ae2eada7caefb70, type: 3}
+  m_Name: GiveEmoji
+  m_EditorClassIdentifier: 
+  id: 72057594037930459
+  technicalName: GiveEmoji
+  parentId: 72057594037929391
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: GiveEmoji
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 120, y: 120}
+  mZIndex: 6
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 3716851150
+  mTemplate:
+    value:
+      mEmojiFeature:
+        value:
+          mMeaning: give
+          mEmojiSprite:
+            objectRef: 72057594037931169
+          mOwnerId: 72057594037930459
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930459
+      mOwnerInstanceId: 0
+--- !u!114 &2049039105495918427
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d01a5cf2707f0b45ae2eada7caefb70, type: 3}
+  m_Name: Ntt_E1CB8B22
+  m_EditorClassIdentifier: 
+  id: 72057594037931013
+  technicalName: Ntt_E1CB8B22
+  parentId: 72057594037929391
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: Passport
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 183.5, y: 78.5}
+  mZIndex: 21
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 3788213026
+  mTemplate:
+    value:
+      mEmojiFeature:
+        value:
+          mMeaning: passport
+          mEmojiSprite:
+            objectRef: 72057594037931136
+          mOwnerId: 72057594037931013
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037931013
+      mOwnerInstanceId: 0
+--- !u!114 &2541271944787522501
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364dcd296d22fe74fa80d87ee21cc00e, type: 3}
+  m_Name: Answer4
+  m_EditorClassIdentifier: 
+  id: 72057594037930558
+  technicalName: Answer4
+  parentId: 72057594037929385
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: Answer4
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 136.5, y: 240.5}
+  mZIndex: 1
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 3567795611
+  mTemplate:
+    value:
+      mFinnishSentenceFeature:
+        value:
+          mSentenceText: "Laukussani ei ole kiellettyj\xE4 esineit\xE4."
+          mVoiceoverFile:
+            objectRef: 0
+          mOwnerId: 72057594037930558
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930558
+      mOwnerInstanceId: 0
+--- !u!114 &2726627277784262064
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0451364ef159d4e4d9446c3e24b9d1f9, type: 3}
+  m_Name: Ast_7279F5E0
+  m_EditorClassIdentifier: 
+  id: 72057594037931151
+  technicalName: Ast_7279F5E0
+  parentId: 72057594037928197
+  childrenIds: 
+  mDisplayName: Prohibited
+  mFilename: Prohibited(0D8F).png
+  mOriginalSource: file:///C:/Users/jaakk/Downloads/Language game emojis/Prohibited.png
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 120, y: 120}
+  mZIndex: 6
+  mSize: {x: 256, y: 196}
+  mShortId: 1920595424
+  mAssetRefPath: Assets/Images/Prohibited
+  mCachedAsset: {fileID: 0}
+  mCategory: 1
+--- !u!114 &2772230662663779462
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0451364ef159d4e4d9446c3e24b9d1f9, type: 3}
+  m_Name: Ast_6264A1CF
+  m_EditorClassIdentifier: 
+  id: 72057594037931157
+  technicalName: Ast_6264A1CF
+  parentId: 72057594037928197
+  childrenIds: 
+  mDisplayName: Flight
+  mFilename: Flight(0D95).png
+  mOriginalSource: file:///C:/Users/jaakk/Downloads/Language game emojis/Flight.png
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 160, y: 160}
+  mZIndex: 8
+  mSize: {x: 256, y: 196}
+  mShortId: 1650762191
+  mAssetRefPath: Assets/Images/Flight
+  mCachedAsset: {fileID: 0}
+  mCategory: 1
+--- !u!114 &3098420285766730916
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8be440da0ea6c294a9451481b5884cfa, type: 3}
+  m_Name: DialogueSentence4
+  m_EditorClassIdentifier: 
+  id: 72057594037930935
+  technicalName: DialogueSentence4
+  parentId: 72057594037929387
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: DialogueSentence6
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 168.5, y: 196}
+  mZIndex: 0
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 291772703
+  mTemplate:
+    value:
+      mDialogueLineFeature:
+        value:
+          mSentence:
+            objectRef: 72057594037930952
+          mAnswer:
+            objectRef: 72057594037930987
+          mHintEmojis:
+            listIds: 750a000000000001050a000000000001f609000000000001
+          mOwnerId: 72057594037930935
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930935
+      mOwnerInstanceId: 0
+--- !u!114 &3197702908948038842
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0451364ef159d4e4d9446c3e24b9d1f9, type: 3}
+  m_Name: Ast_8CE9687B
+  m_EditorClassIdentifier: 
+  id: 72057594037931184
+  technicalName: Ast_8CE9687B
+  parentId: 72057594037928197
+  childrenIds: 
+  mDisplayName: Travel
+  mFilename: Travel(0DB0).png
+  mOriginalSource: file:///C:/Users/jaakk/Downloads/Language game emojis/Travel.png
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 340, y: 340}
+  mZIndex: 17
+  mSize: {x: 256, y: 196}
+  mShortId: 2364106875
+  mAssetRefPath: Assets/Images/Travel
+  mCachedAsset: {fileID: 0}
+  mCategory: 1
+--- !u!114 &3241418770665924766
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0451364ef159d4e4d9446c3e24b9d1f9, type: 3}
+  m_Name: Ast_99AF1A93
+  m_EditorClassIdentifier: 
+  id: 72057594037931154
+  technicalName: Ast_99AF1A93
+  parentId: 72057594037928197
+  childrenIds: 
+  mDisplayName: BaggageClaim
+  mFilename: BaggageClaim(0D92).png
+  mOriginalSource: file:///C:/Users/jaakk/Downloads/Language game emojis/BaggageClaim.png
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 140, y: 140}
+  mZIndex: 7
+  mSize: {x: 256, y: 196}
+  mShortId: 2578389651
+  mAssetRefPath: Assets/Images/BaggageClaim
+  mCachedAsset: {fileID: 0}
+  mCategory: 1
+--- !u!114 &3558687967470029015
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0451364ef159d4e4d9446c3e24b9d1f9, type: 3}
+  m_Name: Ast_E19C7FEF
+  m_EditorClassIdentifier: 
+  id: 72057594037931136
+  technicalName: Ast_E19C7FEF
+  parentId: 72057594037928197
+  childrenIds: 
+  mDisplayName: Passport
+  mFilename: Passport(0D80).png
+  mOriginalSource: file:///C:/Users/jaakk/Downloads/Language game emojis/Passport.png
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 20, y: 20}
+  mZIndex: 1
+  mSize: {x: 256, y: 196}
+  mShortId: 3785129967
+  mAssetRefPath: Assets/Images/Passport
+  mCachedAsset: {fileID: 0}
+  mCategory: 1
+--- !u!114 &4172529578955416989
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d01a5cf2707f0b45ae2eada7caefb70, type: 3}
+  m_Name: NumberEmoji
+  m_EditorClassIdentifier: 
+  id: 72057594037930486
+  technicalName: NumberEmoji
+  parentId: 72057594037929391
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: NumberEmoji
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 220, y: 220}
+  mZIndex: 11
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 41175283
+  mTemplate:
+    value:
+      mEmojiFeature:
+        value:
+          mMeaning: number
+          mEmojiSprite:
+            objectRef: 72057594037931160
+          mOwnerId: 72057594037930486
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930486
+      mOwnerInstanceId: 0
+--- !u!114 &4297011446236596982
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0451364ef159d4e4d9446c3e24b9d1f9, type: 3}
+  m_Name: Ast_A265C7F9
+  m_EditorClassIdentifier: 
+  id: 72057594037931175
+  technicalName: Ast_A265C7F9
+  parentId: 72057594037928197
+  childrenIds: 
+  mDisplayName: Question
+  mFilename: Question(0DA7).png
+  mOriginalSource: file:///C:/Users/jaakk/Downloads/Language game emojis/Question.png
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 280, y: 280}
+  mZIndex: 14
+  mSize: {x: 256, y: 196}
+  mShortId: 2724579321
+  mAssetRefPath: Assets/Images/Question
+  mCachedAsset: {fileID: 0}
+  mCategory: 1
+--- !u!114 &4325217123727798986
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0451364ef159d4e4d9446c3e24b9d1f9, type: 3}
+  m_Name: Ast_0F7EE785
+  m_EditorClassIdentifier: 
+  id: 72057594037931160
+  technicalName: Ast_0F7EE785
+  parentId: 72057594037928197
+  childrenIds: 
+  mDisplayName: Number
+  mFilename: Number(0D98).png
+  mOriginalSource: file:///C:/Users/jaakk/Downloads/Language game emojis/Number.png
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 180, y: 180}
+  mZIndex: 9
+  mSize: {x: 256, y: 196}
+  mShortId: 259975045
+  mAssetRefPath: Assets/Images/Number
+  mCachedAsset: {fileID: 0}
+  mCategory: 1
+--- !u!114 &4659421793202329584
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8be440da0ea6c294a9451481b5884cfa, type: 3}
+  m_Name: DialogueSentence3
+  m_EditorClassIdentifier: 
+  id: 72057594037930851
+  technicalName: DialogueSentence3
+  parentId: 72057594037929387
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: DialogueSentence3
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 124, y: 140}
+  mZIndex: 0
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 2559838923
+  mTemplate:
+    value:
+      mDialogueLineFeature:
+        value:
+          mSentence:
+            objectRef: 72057594037930823
+          mAnswer:
+            objectRef: 72057594037930592
+          mHintEmojis:
+            listIds: e009000000000001750a000000000001d109000000000001cc09000000000001
+          mOwnerId: 72057594037930851
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930851
+      mOwnerInstanceId: 0
+--- !u!114 &4668302518898579334
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a99fcd1cfeab14b4ca5ba1eb40084837, type: 3}
+  m_Name: AirportClerk
+  m_EditorClassIdentifier: 
+  id: 72057594037929486
+  technicalName: AirportClerk
+  parentId: 72057594037929463
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: AirportClerk example
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 0, y: 0}
+  mZIndex: 0
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 1162021838
+  mTemplate:
+    value:
+      mNPCFeature:
+        value:
+          mdialogueLines:
+            listIds: 97050000000000015d0b000000000001630b000000000001
+          mcodeName: Clerk
+          mstageNumber: 1
+          mOwnerId: 72057594037929486
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037929486
+      mOwnerInstanceId: 0
+--- !u!114 &5630141459487224442
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939fcaa968285054d8f816cea96ed185, type: 3}
+  m_Name: Ufo_48C6ABE9
+  m_EditorClassIdentifier: 
+  id: 72057594037929391
+  technicalName: Ufo_48C6ABE9
+  parentId: 216172785005863603
+  childrenIds: bb05000000000001d605000000000001c709000000000001cc09000000000001d109000000000001db09000000000001e009000000000001eb09000000000001f609000000000001000a000000000001050a000000000001190a000000000001750a0000000000017f0a0000000000018a0a000000000001980a000000000001050c000000000001
+  mDisplayName: Emojis
+  mExternalId: 
+  mShortId: 1220979689
+  mZIndex: 0
+--- !u!114 &5837502303005571114
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939fcaa968285054d8f816cea96ed185, type: 3}
+  m_Name: Ufo_87BEFE1B
+  m_EditorClassIdentifier: 
+  id: 72057594037929387
+  technicalName: Ufo_87BEFE1B
+  parentId: 216172785005863603
+  childrenIds: 97050000000000015d0b000000000001630b000000000001690b000000000001ab0b000000000001b70b000000000001
+  mDisplayName: DialogueSentences
+  mExternalId: 
+  mShortId: 2277441051
+  mZIndex: 0
+--- !u!114 &6097300041588177675
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d01a5cf2707f0b45ae2eada7caefb70, type: 3}
+  m_Name: ColorsEmoji
+  m_EditorClassIdentifier: 
+  id: 72057594037930464
+  technicalName: ColorsEmoji
+  parentId: 72057594037929391
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: ColorsEmoji
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 140, y: 140}
+  mZIndex: 7
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 2558058140
+  mTemplate:
+    value:
+      mEmojiFeature:
+        value:
+          mMeaning: colors
+          mEmojiSprite:
+            objectRef: 72057594037931166
+          mOwnerId: 72057594037930464
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930464
+      mOwnerInstanceId: 0
+--- !u!114 &6100845289181979548
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364dcd296d22fe74fa80d87ee21cc00e, type: 3}
+  m_Name: Answer1
+  m_EditorClassIdentifier: 
+  id: 72057594037929397
+  technicalName: Answer1
+  parentId: 72057594037929385
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: Answer1
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 20, y: 20}
+  mZIndex: 1
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 110845429
+  mTemplate:
+    value:
+      mFinnishSentenceFeature:
+        value:
+          mSentenceText: "P\xE4iv\xE4\xE4, tarvitsen apua laukkuni kanssa."
+          mVoiceoverFile:
+            objectRef: 0
+          mOwnerId: 72057594037929397
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037929397
+      mOwnerInstanceId: 0
+--- !u!114 &6315017505663684353
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939fcaa968285054d8f816cea96ed185, type: 3}
+  m_Name: Ufo_13312DED
+  m_EditorClassIdentifier: 
+  id: 72057594037928199
+  technicalName: Ufo_13312DED
+  parentId: 216172783392894804
+  childrenIds: 
+  mDisplayName: Videos
+  mExternalId: 
+  mShortId: 321990125
+  mZIndex: 0
+--- !u!114 &6549245460053408090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364dcd296d22fe74fa80d87ee21cc00e, type: 3}
+  m_Name: Dialogue1
+  m_EditorClassIdentifier: 
+  id: 72057594037929393
+  technicalName: Dialogue1
+  parentId: 72057594037929385
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: Dialogue1
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 0, y: 0}
+  mZIndex: 0
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 1062158121
+  mTemplate:
+    value:
+      mFinnishSentenceFeature:
+        value:
+          mSentenceText: "P\xE4iv\xE4\xE4, tarvitsetteko apua laukkusi kanssa?"
+          mVoiceoverFile:
+            objectRef: 0
+          mOwnerId: 72057594037929393
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037929393
+      mOwnerInstanceId: 0
+--- !u!114 &6963550771590349389
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d01a5cf2707f0b45ae2eada7caefb70, type: 3}
+  m_Name: QuestionEmoji
+  m_EditorClassIdentifier: 
+  id: 72057594037930444
+  technicalName: QuestionEmoji
+  parentId: 72057594037929391
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: QuestionEmoji
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 60, y: 60}
+  mZIndex: 3
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 1669579124
+  mTemplate:
+    value:
+      mEmojiFeature:
+        value:
+          mMeaning: question
+          mEmojiSprite:
+            objectRef: 72057594037931175
+          mOwnerId: 72057594037930444
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930444
+      mOwnerInstanceId: 0
+--- !u!114 &7142951143489981943
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364dcd296d22fe74fa80d87ee21cc00e, type: 3}
+  m_Name: Answer5
+  m_EditorClassIdentifier: 
+  id: 72057594037930962
+  technicalName: Answer5
+  parentId: 72057594037929385
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: Answer5
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 128, y: 250.5}
+  mZIndex: 1
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 3243382997
+  mTemplate:
+    value:
+      mFinnishSentenceFeature:
+        value:
+          mSentenceText: "T\xE4ss\xE4 passini."
+          mVoiceoverFile:
+            objectRef: 0
+          mOwnerId: 72057594037930962
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930962
+      mOwnerInstanceId: 0
+--- !u!114 &7298332160221602880
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b2e10a1ddfc7524497906516e28aef4, type: 3}
+  m_Name: Inspectable5
+  m_EditorClassIdentifier: 
+  id: 72057594037930998
+  technicalName: Inspectable5
+  parentId: 72057594037929389
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: Inspectable5
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 151.5, y: 424}
+  mZIndex: 0
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 1523148238
+  mTemplate:
+    value:
+      mInspectableSentenceFeature:
+        value:
+          mSentence:
+            objectRef: 72057594037930962
+          mCorrectEmojis:
+            listIds: 050c000000000001
+          mOwnerId: 72057594037930998
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930998
+      mOwnerInstanceId: 0
+--- !u!114 &7989359662757572448
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939fcaa968285054d8f816cea96ed185, type: 3}
+  m_Name: Ufo_514E7120
+  m_EditorClassIdentifier: 
+  id: 72057594037928203
+  technicalName: Ufo_514E7120
+  parentId: 216172783392894804
+  childrenIds: 
+  mDisplayName: Documents
+  mExternalId: 
+  mShortId: 1364095264
+  mZIndex: 0
+--- !u!114 &8307753247980742934
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364dcd296d22fe74fa80d87ee21cc00e, type: 3}
+  m_Name: Dialogue6
+  m_EditorClassIdentifier: 
+  id: 72057594037930952
+  technicalName: Dialogue6
+  parentId: 72057594037929385
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: Dialogue6
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 181.5, y: 336.5}
+  mZIndex: 2
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 2528871923
+  mTemplate:
+    value:
+      mFinnishSentenceFeature:
+        value:
+          mSentenceText: "Matkatavaroiden luovutusalueesi on numero 6. N\xE4kemiin!"
+          mVoiceoverFile:
+            objectRef: 0
+          mOwnerId: 72057594037930952
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930952
+      mOwnerInstanceId: 0
+--- !u!114 &8331466044390474307
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364dcd296d22fe74fa80d87ee21cc00e, type: 3}
+  m_Name: Dialogue2
+  m_EditorClassIdentifier: 
+  id: 72057594037930828
+  technicalName: Dialogue2
+  parentId: 72057594037929385
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: Dialogue2
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 134, y: 192.5}
+  mZIndex: 2
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 1007582426
+  mTemplate:
+    value:
+      mFinnishSentenceFeature:
+        value:
+          mSentenceText: "Mik\xE4 on sinun lentosi numero?"
+          mVoiceoverFile:
+            objectRef: 0
+          mOwnerId: 72057594037930828
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930828
+      mOwnerInstanceId: 0
+--- !u!114 &8395674395453390240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939fcaa968285054d8f816cea96ed185, type: 3}
+  m_Name: Ufo_5B63E3AE
+  m_EditorClassIdentifier: 
+  id: 72057594037929463
+  technicalName: Ufo_5B63E3AE
+  parentId: 216172785005863603
+  childrenIds: 0e06000000000001
+  mDisplayName: NPCs
+  mExternalId: 
+  mShortId: 1533273006
+  mZIndex: 0
+--- !u!114 &8397556450766634929
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0451364ef159d4e4d9446c3e24b9d1f9, type: 3}
+  m_Name: Ast_B892F96E
+  m_EditorClassIdentifier: 
+  id: 72057594037931163
+  technicalName: Ast_B892F96E
+  parentId: 72057594037928197
+  childrenIds: 
+  mDisplayName: Contents
+  mFilename: Contents(0D9B).png
+  mOriginalSource: file:///C:/Users/jaakk/Downloads/Language game emojis/Contents.png
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 200, y: 200}
+  mZIndex: 10
+  mSize: {x: 256, y: 196}
+  mShortId: 3096639854
+  mAssetRefPath: Assets/Images/Contents
+  mCachedAsset: {fileID: 0}
+  mCategory: 1
+--- !u!114 &8949651696127829052
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364dcd296d22fe74fa80d87ee21cc00e, type: 3}
+  m_Name: Answer6
+  m_EditorClassIdentifier: 
+  id: 72057594037930957
+  technicalName: Answer6
+  parentId: 72057594037929385
+  childrenIds: 
+  mAttachments:
+    listIds: 
+  mDisplayName: Answer6
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 128, y: 250.5}
+  mZIndex: 1
+  mSize: {x: 256, y: 196}
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mShortId: 4024375073
+  mTemplate:
+    value:
+      mFinnishSentenceFeature:
+        value:
+          mSentenceText: "Kiitos, n\xE4kemiin."
+          mVoiceoverFile:
+            objectRef: 0
+          mOwnerId: 72057594037930957
+          mOwnerInstanceId: 0
+      mOwnerId: 72057594037930957
+      mOwnerInstanceId: 0
+--- !u!114 &9162615258524120058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0451364ef159d4e4d9446c3e24b9d1f9, type: 3}
+  m_Name: Ast_37387CE6
+  m_EditorClassIdentifier: 
+  id: 72057594037931148
+  technicalName: Ast_37387CE6
+  parentId: 72057594037928197
+  childrenIds: 
+  mDisplayName: Arrivals
+  mFilename: Arrivals(0D8C).png
+  mOriginalSource: file:///C:/Users/jaakk/Downloads/Language game emojis/Arrivals.png
+  mPreviewImage:
+    mViewBoxX: 0
+    mViewBoxY: 0
+    mViewBoxWidth: 0
+    mViewBoxHeight: 0
+    mMode: 0
+    mAsset:
+      objectRef: 0
+  mColor: {r: 0.57758045, g: 0.7605245, b: 0.7991027, a: 1}
+  mText: 
+  mExternalId: 
+  mPosition: {x: 100, y: 100}
+  mZIndex: 5
+  mSize: {x: 256, y: 196}
+  mShortId: 926448870
+  mAssetRefPath: Assets/Images/Arrivals
+  mCachedAsset: {fileID: 0}
+  mCategory: 1

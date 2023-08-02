@@ -1,0 +1,5462 @@
+{
+  "Settings": {
+    "set_Localization": "False",
+    "set_TextFormatter": "Unity",
+    "set_IncludedNodes": "Settings, Project, GlobalVariables, ObjectDefinitions, Packages, ScriptMethods, Hierarchy, Assets",
+    "set_UseScriptSupport": "True",
+    "ExportVersion": "1.2",
+    "ObjectDefinitionsHash": "8E5D5D8254C6674AE461D002675227DCA75F9B8EF5509A7F1423A597F3BF37C7",
+    "ScriptFragmentsHash": "0000000000"
+  },
+  "Project": {
+    "Name": "LanguageGameArticy",
+    "DetailName": "",
+    "Guid": "f46e5b9b-7bc5-459d-bdb7-225706fb2332",
+    "TechnicalName": "Languagegamearticy"
+  },
+  "GlobalVariables": [],
+  "ObjectDefinitions": [
+    {
+      "Type": "Point",
+      "Class": "Primitive",
+      "Properties": [
+        {
+          "Property": "x",
+          "Type": "float"
+        },
+        {
+          "Property": "y",
+          "Type": "float"
+        }
+      ]
+    },
+    {
+      "Type": "Color",
+      "Class": "Primitive",
+      "Properties": [
+        {
+          "Property": "a",
+          "Type": "float"
+        },
+        {
+          "Property": "r",
+          "Type": "float"
+        },
+        {
+          "Property": "g",
+          "Type": "float"
+        },
+        {
+          "Property": "b",
+          "Type": "float"
+        }
+      ]
+    },
+    {
+      "Type": "Size",
+      "Class": "Primitive",
+      "Properties": [
+        {
+          "Property": "w",
+          "Type": "float"
+        },
+        {
+          "Property": "h",
+          "Type": "float"
+        }
+      ]
+    },
+    {
+      "Type": "Rect",
+      "Class": "Primitive",
+      "Properties": [
+        {
+          "Property": "x",
+          "Type": "float"
+        },
+        {
+          "Property": "y",
+          "Type": "float"
+        },
+        {
+          "Property": "w",
+          "Type": "float"
+        },
+        {
+          "Property": "h",
+          "Type": "float"
+        }
+      ]
+    },
+    {
+      "Type": "PreviewImage",
+      "Class": "ArticyObject",
+      "Properties": [
+        {
+          "Property": "ViewBox",
+          "Type": "Rect"
+        },
+        {
+          "Property": "Mode",
+          "Type": "PreviewImageViewBoxModes"
+        },
+        {
+          "Property": "Asset",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "Transformation",
+      "Class": "ArticyObject",
+      "Properties": [
+        {
+          "Property": "Pivot",
+          "Type": "Point"
+        },
+        {
+          "Property": "Rotation",
+          "Type": "float"
+        },
+        {
+          "Property": "Translation",
+          "Type": "Point"
+        },
+        {
+          "Property": "Matrix",
+          "Type": "Array",
+          "ItemType": "float"
+        }
+      ]
+    },
+    {
+      "Type": "OutgoingConnection",
+      "Class": "ArticyObject",
+      "Properties": [
+        {
+          "Property": "Label",
+          "Type": "string"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "TargetPin",
+          "Type": "InputPin"
+        },
+        {
+          "Property": "Target",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "IncomingConnection",
+      "Class": "ArticyObject",
+      "Properties": [
+        {
+          "Property": "Label",
+          "Type": "string"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "SourcePin",
+          "Type": "OutputPin"
+        },
+        {
+          "Property": "Source",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "OutputPin",
+      "Class": "ArticyObject",
+      "Properties": [
+        {
+          "Property": "Text",
+          "Type": "Script_Instruction"
+        },
+        {
+          "Property": "Id",
+          "Type": "id"
+        },
+        {
+          "Property": "Owner",
+          "Type": "id"
+        },
+        {
+          "Property": "Connections",
+          "Type": "Array",
+          "ItemType": "OutgoingConnection"
+        }
+      ]
+    },
+    {
+      "Type": "InputPin",
+      "Class": "ArticyObject",
+      "Properties": [
+        {
+          "Property": "Text",
+          "Type": "Script_Condition"
+        },
+        {
+          "Property": "Id",
+          "Type": "id"
+        },
+        {
+          "Property": "Owner",
+          "Type": "id"
+        },
+        {
+          "Property": "Connections",
+          "Type": "Array",
+          "ItemType": "OutgoingConnection"
+        }
+      ]
+    },
+    {
+      "Type": "LocationAnchor",
+      "Class": "ArticyObject",
+      "Properties": [
+        {
+          "Property": "AnchorPositionX",
+          "Type": "float"
+        },
+        {
+          "Property": "AnchorPositionY",
+          "Type": "float"
+        },
+        {
+          "Property": "AnchorColor",
+          "Type": "Color"
+        },
+        {
+          "Property": "AnchorSize",
+          "Type": "LocationAnchorSize"
+        }
+      ]
+    },
+    {
+      "Type": "ShapeType",
+      "Class": "Enum",
+      "DisplayName": "ShapeType",
+      "Values": {
+        "Invalid": 0,
+        "Spot": 1,
+        "Circle": 2,
+        "Rectangle": 3,
+        "Path": 4,
+        "Polygon": 5,
+        "Link": 6
+      },
+      "DisplayNames": {
+        "Invalid": "Invalid",
+        "Spot": "Spot",
+        "Circle": "Circle",
+        "Rectangle": "Rectangle",
+        "Path": "Path",
+        "Polygon": "Polygon",
+        "Link": "Link"
+      }
+    },
+    {
+      "Type": "SelectabilityModes",
+      "Class": "Enum",
+      "DisplayName": "SelectabilityModes",
+      "Values": {
+        "Unselectable": 0,
+        "Selectable": 1
+      },
+      "DisplayNames": {
+        "Unselectable": "Unselectable",
+        "Selectable": "Selectable"
+      }
+    },
+    {
+      "Type": "VisibilityModes",
+      "Class": "Enum",
+      "DisplayName": "VisibilityModes",
+      "Values": {
+        "Invisible": 0,
+        "Visible": 1
+      },
+      "DisplayNames": {
+        "Invisible": "Invisible",
+        "Visible": "Visible"
+      }
+    },
+    {
+      "Type": "OutlineStyle",
+      "Class": "Enum",
+      "DisplayName": "OutlineStyle",
+      "Values": {
+        "Solid": 0,
+        "Dot": 1,
+        "Dash": 2,
+        "DashDot": 3,
+        "DashDotDot": 4
+      },
+      "DisplayNames": {
+        "Solid": "Solid",
+        "Dot": "Dot",
+        "Dash": "Dash",
+        "DashDot": "DashDot",
+        "DashDotDot": "DashDotDot"
+      }
+    },
+    {
+      "Type": "PathCaps",
+      "Class": "Enum",
+      "DisplayName": "PathCaps",
+      "Values": {
+        "ColoredDot": 0,
+        "None": 1,
+        "LineArrowHead": 2,
+        "FilledArrowHead": 3,
+        "Diamond": 4,
+        "Square": 5,
+        "Disc": 6
+      },
+      "DisplayNames": {
+        "ColoredDot": "ColoredDot",
+        "None": "None",
+        "LineArrowHead": "LineArrowHead",
+        "FilledArrowHead": "FilledArrowHead",
+        "Diamond": "Diamond",
+        "Square": "Square",
+        "Disc": "Disc"
+      }
+    },
+    {
+      "Type": "LocationAnchorSize",
+      "Class": "Enum",
+      "DisplayName": "LocationAnchorSize",
+      "Values": {
+        "Small": 0,
+        "Medium": 1,
+        "Large": 2
+      },
+      "DisplayNames": {
+        "Small": "Small",
+        "Medium": "Medium",
+        "Large": "Large"
+      }
+    },
+    {
+      "Type": "PreviewImageViewBoxModes",
+      "Class": "Enum",
+      "DisplayName": "PreviewImageViewBoxModes",
+      "Values": {
+        "FromAsset": 0,
+        "Custom": 1
+      },
+      "DisplayNames": {
+        "FromAsset": "FromAsset",
+        "Custom": "Custom"
+      }
+    },
+    {
+      "Type": "FlowFragment",
+      "Class": "FlowFragment",
+      "DisplayName": "FlowFragment",
+      "Properties": [
+        {
+          "Property": "Attachments",
+          "Type": "Array",
+          "ItemType": "Id"
+        },
+        {
+          "Property": "DisplayName",
+          "Type": "string"
+        },
+        {
+          "Property": "PreviewImage",
+          "Type": "PreviewImage"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "string"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "string"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "uint"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "string"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        },
+        {
+          "Property": "InputPins",
+          "Type": "Array",
+          "ItemType": "InputPin"
+        },
+        {
+          "Property": "OutputPins",
+          "Type": "Array",
+          "ItemType": "OutputPin"
+        }
+      ]
+    },
+    {
+      "Type": "Dialogue",
+      "Class": "Dialogue",
+      "DisplayName": "Dialogue",
+      "Properties": [
+        {
+          "Property": "Attachments",
+          "Type": "Array",
+          "ItemType": "Id"
+        },
+        {
+          "Property": "DisplayName",
+          "Type": "string"
+        },
+        {
+          "Property": "PreviewImage",
+          "Type": "PreviewImage"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "string"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "string"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "uint"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "string"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        },
+        {
+          "Property": "InputPins",
+          "Type": "Array",
+          "ItemType": "InputPin"
+        },
+        {
+          "Property": "OutputPins",
+          "Type": "Array",
+          "ItemType": "OutputPin"
+        }
+      ]
+    },
+    {
+      "Type": "DialogueFragment",
+      "Class": "DialogueFragment",
+      "DisplayName": "DialogueFragment",
+      "Properties": [
+        {
+          "Property": "MenuText",
+          "Type": "string"
+        },
+        {
+          "Property": "StageDirections",
+          "Type": "string"
+        },
+        {
+          "Property": "Speaker",
+          "Type": "Id"
+        },
+        {
+          "Property": "SplitHeight",
+          "Type": "Float"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "string"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "string"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "uint"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "string"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        },
+        {
+          "Property": "InputPins",
+          "Type": "Array",
+          "ItemType": "InputPin"
+        },
+        {
+          "Property": "OutputPins",
+          "Type": "Array",
+          "ItemType": "OutputPin"
+        }
+      ]
+    },
+    {
+      "Type": "Hub",
+      "Class": "Hub",
+      "DisplayName": "Hub",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "string"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "string"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "string"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "uint"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "string"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        },
+        {
+          "Property": "InputPins",
+          "Type": "Array",
+          "ItemType": "InputPin"
+        },
+        {
+          "Property": "OutputPins",
+          "Type": "Array",
+          "ItemType": "OutputPin"
+        }
+      ]
+    },
+    {
+      "Type": "Comment",
+      "Class": "Comment",
+      "DisplayName": "Comment",
+      "Properties": [
+        {
+          "Property": "CreatedBy",
+          "Type": "string"
+        },
+        {
+          "Property": "CreatedOn",
+          "Type": "DateTime"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "string"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "string"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "uint"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "string"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "Jump",
+      "Class": "Jump",
+      "DisplayName": "Jump",
+      "Properties": [
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "string"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "string"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "uint"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "string"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        },
+        {
+          "Property": "Target",
+          "Type": "Id"
+        },
+        {
+          "Property": "TargetPin",
+          "Type": "Id"
+        },
+        {
+          "Property": "InputPins",
+          "Type": "Array",
+          "ItemType": "InputPin"
+        },
+        {
+          "Property": "OutputPins",
+          "Type": "Array",
+          "ItemType": "OutputPin"
+        }
+      ]
+    },
+    {
+      "Type": "Entity",
+      "Class": "Entity",
+      "DisplayName": "Entity",
+      "Properties": [
+        {
+          "Property": "Attachments",
+          "Type": "Array",
+          "ItemType": "Id"
+        },
+        {
+          "Property": "DisplayName",
+          "Type": "string"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "string"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "string"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "PreviewImage",
+          "Type": "PreviewImage"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "uint"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "string"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "NPC",
+      "Class": "Entity",
+      "InheritsFrom": "Entity",
+      "Template": {
+        "TechnicalName": "NPC",
+        "DisplayName": "NPC",
+        "Features": [
+          {
+            "TechnicalName": "NPCFeature",
+            "DisplayName": "NPCFeature",
+            "Properties": [
+              {
+                "Property": "dialogueLines",
+                "Type": "Array",
+                "DisplayName": "dialogueLines",
+                "ToolTip": "Related dialogue line entities",
+                "ItemType": "Id"
+              },
+              {
+                "Property": "codeName",
+                "Type": "string",
+                "DisplayName": "codeName",
+                "ToolTip": "Write NPC code name here"
+              },
+              {
+                "Property": "stageNumber",
+                "Type": "Float",
+                "DisplayName": "stageNumber"
+              }
+            ],
+            "Constraints": [
+              {
+                "Property": "dialogueLines",
+                "Type": "ReferenceStrip",
+                "MaxReferenceCount": "3",
+                "AllowedModelTypes": [
+                  "Entity"
+                ],
+                "PlaceholderValue": "Drag related dialogue line entities here",
+                "AllowedAssetCategories": [
+                  "None"
+                ],
+                "AllowedModelTemplates": [
+                  "DialogueLine"
+                ]
+              },
+              {
+                "Property": "codeName",
+                "Type": "Text",
+                "MaxLength": "2048",
+                "PlaceholderValue": "Write NPC code name here",
+                "IsLocalized": "False",
+                "AllowsLinebreaks": "False"
+              },
+              {
+                "Property": "stageNumber",
+                "Type": "Number",
+                "MinValue": "-3.40282346638529E+38",
+                "MaxValue": "3.40282346638529E+38",
+                "Precision": "0",
+                "MinPrecision": "0",
+                "MaxPrecision": "0",
+                "Unit": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "InspectableSentence",
+      "Class": "Entity",
+      "InheritsFrom": "Entity",
+      "Template": {
+        "TechnicalName": "InspectableSentence",
+        "DisplayName": "InspectableSentence",
+        "Features": [
+          {
+            "TechnicalName": "InspectableSentenceFeature",
+            "DisplayName": "InspectableSentenceFeature",
+            "Properties": [
+              {
+                "Property": "Sentence",
+                "Type": "Id",
+                "DisplayName": "Sentence",
+                "ToolTip": "Drag here an entity of the FinnishSentence type"
+              },
+              {
+                "Property": "CorrectEmojis",
+                "Type": "Array",
+                "DisplayName": "CorrectEmojis",
+                "ToolTip": "Drag here the emojis that have to be used to guess the sentence",
+                "ItemType": "Id"
+              }
+            ],
+            "Constraints": [
+              {
+                "Property": "Sentence",
+                "Type": "ReferenceSlot",
+                "AllowedModelTypes": [
+                  "Entity"
+                ],
+                "PlaceholderValue": "Drag here an FinnishSentence entity",
+                "AllowedAssetCategories": [
+                  "None"
+                ],
+                "AllowedModelTemplates": [
+                  "FinnishSentence"
+                ]
+              },
+              {
+                "Property": "CorrectEmojis",
+                "Type": "ReferenceStrip",
+                "MaxReferenceCount": "10000",
+                "AllowedModelTypes": [
+                  "Entity"
+                ],
+                "PlaceholderValue": "Drag here the correct emojis for the sentence",
+                "AllowedAssetCategories": [
+                  "None"
+                ],
+                "AllowedModelTemplates": [
+                  "Emoji"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "FinnishSentence",
+      "Class": "Entity",
+      "InheritsFrom": "Entity",
+      "Template": {
+        "TechnicalName": "FinnishSentence",
+        "DisplayName": "FinnishSentence",
+        "Features": [
+          {
+            "TechnicalName": "FinnishSentenceFeature",
+            "DisplayName": "FinnishSentenceFeature",
+            "Properties": [
+              {
+                "Property": "SentenceText",
+                "Type": "string",
+                "DisplayName": "SentenceText",
+                "ToolTip": "Write here the sentence in finnish"
+              },
+              {
+                "Property": "VoiceoverFile",
+                "Type": "Id",
+                "DisplayName": "VoiceoverFile",
+                "ToolTip": "Drag here voiceover file of the sentence"
+              }
+            ],
+            "Constraints": [
+              {
+                "Property": "SentenceText",
+                "Type": "Text",
+                "MaxLength": "2048",
+                "PlaceholderValue": "Write here the sentence in finnish",
+                "IsLocalized": "False",
+                "AllowsLinebreaks": "True"
+              },
+              {
+                "Property": "VoiceoverFile",
+                "Type": "ReferenceSlot",
+                "AllowedModelTypes": [
+                  "Asset"
+                ],
+                "PlaceholderValue": "Drag here voiceover file",
+                "AllowedAssetCategories": [
+                  "None",
+                  "Audio"
+                ],
+                "AllowedModelTemplates": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Emoji",
+      "Class": "Entity",
+      "InheritsFrom": "Entity",
+      "Template": {
+        "TechnicalName": "Emoji",
+        "DisplayName": "Emoji",
+        "Features": [
+          {
+            "TechnicalName": "EmojiFeature",
+            "DisplayName": "EmojiFeature",
+            "Properties": [
+              {
+                "Property": "Meaning",
+                "Type": "string",
+                "DisplayName": "Meaning",
+                "ToolTip": "Write here the meaning of the emoji"
+              },
+              {
+                "Property": "EmojiSprite",
+                "Type": "Id",
+                "DisplayName": "EmojiSprite",
+                "ToolTip": "Drag emoji sprite here"
+              }
+            ],
+            "Constraints": [
+              {
+                "Property": "Meaning",
+                "Type": "Text",
+                "MaxLength": "2048",
+                "PlaceholderValue": "Write here the meaning of the emoji",
+                "IsLocalized": "True",
+                "AllowsLinebreaks": "False"
+              },
+              {
+                "Property": "EmojiSprite",
+                "Type": "ReferenceSlot",
+                "AllowedModelTypes": [
+                  "Asset"
+                ],
+                "PlaceholderValue": "Drag emoji sprite here",
+                "AllowedAssetCategories": [
+                  "None",
+                  "Image"
+                ],
+                "AllowedModelTemplates": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "DialogueLine",
+      "Class": "Entity",
+      "InheritsFrom": "Entity",
+      "Template": {
+        "TechnicalName": "DialogueLine",
+        "DisplayName": "DialogueLine",
+        "Features": [
+          {
+            "TechnicalName": "DialogueLineFeature",
+            "DisplayName": "DialogueLineFeature",
+            "Properties": [
+              {
+                "Property": "Sentence",
+                "Type": "Id",
+                "DisplayName": "Sentence",
+                "ToolTip": "Drag here the sentence pronounced by the NPC"
+              },
+              {
+                "Property": "Answer",
+                "Type": "Id",
+                "DisplayName": "Answer",
+                "ToolTip": "Drag here the InspectableSentence that the player has to use as answer"
+              },
+              {
+                "Property": "HintEmojis",
+                "Type": "Array",
+                "DisplayName": "HintEmojis",
+                "ItemType": "Id"
+              }
+            ],
+            "Constraints": [
+              {
+                "Property": "Sentence",
+                "Type": "ReferenceSlot",
+                "AllowedModelTypes": [
+                  "Entity"
+                ],
+                "PlaceholderValue": "Finnish Sentence",
+                "AllowedAssetCategories": [
+                  "None"
+                ],
+                "AllowedModelTemplates": [
+                  "FinnishSentence"
+                ]
+              },
+              {
+                "Property": "Answer",
+                "Type": "ReferenceSlot",
+                "AllowedModelTypes": [
+                  "Entity"
+                ],
+                "PlaceholderValue": "Ispectable Sentence",
+                "AllowedAssetCategories": [
+                  "None"
+                ],
+                "AllowedModelTemplates": [
+                  "InspectableSentence"
+                ]
+              },
+              {
+                "Property": "HintEmojis",
+                "Type": "ReferenceStrip",
+                "MaxReferenceCount": "10",
+                "AllowedModelTypes": [
+                  "Entity"
+                ],
+                "PlaceholderValue": "",
+                "AllowedAssetCategories": [
+                  "None"
+                ],
+                "AllowedModelTemplates": [
+                  "Emoji"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Location",
+      "Class": "Location",
+      "DisplayName": "Location",
+      "Properties": [
+        {
+          "Property": "Attachments",
+          "Type": "Array",
+          "ItemType": "Id"
+        },
+        {
+          "Property": "DisplayName",
+          "Type": "string"
+        },
+        {
+          "Property": "PreviewImage",
+          "Type": "PreviewImage"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "string"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "string"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "uint"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "string"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "Spot",
+      "Class": "Spot",
+      "DisplayName": "Spot",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "string"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "string"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "string"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "PreviewImage",
+          "Type": "PreviewImage"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "uint"
+        },
+        {
+          "Property": "Visibility",
+          "Type": "VisibilityModes"
+        },
+        {
+          "Property": "ShowDisplayName",
+          "Type": "Boolean"
+        },
+        {
+          "Property": "DisplayNameColor",
+          "Type": "Color"
+        },
+        {
+          "Property": "DisplayNameSize",
+          "Type": "int"
+        },
+        {
+          "Property": "OutlineColor",
+          "Type": "Color"
+        },
+        {
+          "Property": "OutlineSize",
+          "Type": "Float"
+        },
+        {
+          "Property": "OutlineStyle",
+          "Type": "OutlineStyle"
+        },
+        {
+          "Property": "DropShadow",
+          "Type": "Boolean"
+        },
+        {
+          "Property": "Selectability",
+          "Type": "SelectabilityModes"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "string"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "Zone",
+      "Class": "Zone",
+      "DisplayName": "Zone",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "string"
+        },
+        {
+          "Property": "PreviewImage",
+          "Type": "PreviewImage"
+        },
+        {
+          "Property": "Vertices",
+          "Type": "Array",
+          "ItemType": "Point"
+        },
+        {
+          "Property": "Transform",
+          "Type": "Transformation"
+        },
+        {
+          "Property": "ShapeType",
+          "Type": "ShapeType"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "string"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "string"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "uint"
+        },
+        {
+          "Property": "Visibility",
+          "Type": "VisibilityModes"
+        },
+        {
+          "Property": "OutlineColor",
+          "Type": "Color"
+        },
+        {
+          "Property": "OutlineSize",
+          "Type": "Float"
+        },
+        {
+          "Property": "OutlineStyle",
+          "Type": "OutlineStyle"
+        },
+        {
+          "Property": "ShowDisplayName",
+          "Type": "Boolean"
+        },
+        {
+          "Property": "DisplayNameColor",
+          "Type": "Color"
+        },
+        {
+          "Property": "DisplayNameSize",
+          "Type": "int"
+        },
+        {
+          "Property": "DropShadow",
+          "Type": "Boolean"
+        },
+        {
+          "Property": "Selectability",
+          "Type": "SelectabilityModes"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "string"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "Path",
+      "Class": "Path",
+      "DisplayName": "Path",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "string"
+        },
+        {
+          "Property": "PreviewImage",
+          "Type": "PreviewImage"
+        },
+        {
+          "Property": "Vertices",
+          "Type": "Array",
+          "ItemType": "Point"
+        },
+        {
+          "Property": "Transform",
+          "Type": "Transformation"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "string"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "string"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "uint"
+        },
+        {
+          "Property": "Visibility",
+          "Type": "VisibilityModes"
+        },
+        {
+          "Property": "Selectability",
+          "Type": "SelectabilityModes"
+        },
+        {
+          "Property": "ShowDisplayName",
+          "Type": "Boolean"
+        },
+        {
+          "Property": "DisplayNameColor",
+          "Type": "Color"
+        },
+        {
+          "Property": "DisplayNameSize",
+          "Type": "int"
+        },
+        {
+          "Property": "DropShadow",
+          "Type": "Boolean"
+        },
+        {
+          "Property": "OutlineColor",
+          "Type": "Color"
+        },
+        {
+          "Property": "OutlineSize",
+          "Type": "Float"
+        },
+        {
+          "Property": "OutlineStyle",
+          "Type": "OutlineStyle"
+        },
+        {
+          "Property": "StartCap",
+          "Type": "PathCaps"
+        },
+        {
+          "Property": "EndCap",
+          "Type": "PathCaps"
+        },
+        {
+          "Property": "LineWidth",
+          "Type": "Float"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "string"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "Link",
+      "Class": "Link",
+      "DisplayName": "Link",
+      "Properties": [
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "string"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "string"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "Target",
+          "Type": "Id"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "uint"
+        },
+        {
+          "Property": "Visibility",
+          "Type": "VisibilityModes"
+        },
+        {
+          "Property": "ShowDisplayName",
+          "Type": "Boolean"
+        },
+        {
+          "Property": "DisplayNameColor",
+          "Type": "Color"
+        },
+        {
+          "Property": "DisplayNameSize",
+          "Type": "int"
+        },
+        {
+          "Property": "Selectability",
+          "Type": "SelectabilityModes"
+        },
+        {
+          "Property": "DropShadow",
+          "Type": "Boolean"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "string"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "Asset",
+      "Class": "Asset",
+      "DisplayName": "Asset",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "string"
+        },
+        {
+          "Property": "Filename",
+          "Type": "string"
+        },
+        {
+          "Property": "OriginalSource",
+          "Type": "string"
+        },
+        {
+          "Property": "PreviewImage",
+          "Type": "PreviewImage"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "string"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "string"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "uint"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "string"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "Condition",
+      "Class": "Condition",
+      "DisplayName": "Condition",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "String"
+        },
+        {
+          "Property": "Text",
+          "Type": "string"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "string"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "uint"
+        },
+        {
+          "Property": "Expression",
+          "Type": "Script_Condition"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "string"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        },
+        {
+          "Property": "InputPins",
+          "Type": "Array",
+          "ItemType": "InputPin"
+        },
+        {
+          "Property": "OutputPins",
+          "Type": "Array",
+          "ItemType": "OutputPin"
+        }
+      ]
+    },
+    {
+      "Type": "Instruction",
+      "Class": "Instruction",
+      "DisplayName": "Instruction",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "String"
+        },
+        {
+          "Property": "Text",
+          "Type": "string"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "string"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "uint"
+        },
+        {
+          "Property": "Expression",
+          "Type": "Script_Instruction"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "string"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        },
+        {
+          "Property": "InputPins",
+          "Type": "Array",
+          "ItemType": "InputPin"
+        },
+        {
+          "Property": "OutputPins",
+          "Type": "Array",
+          "ItemType": "OutputPin"
+        }
+      ]
+    },
+    {
+      "Type": "LocationText",
+      "Class": "LocationText",
+      "DisplayName": "LocationText",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "String"
+        },
+        {
+          "Property": "PreviewImage",
+          "Type": "PreviewImage"
+        },
+        {
+          "Property": "Anchors",
+          "Type": "Array",
+          "ItemType": "LocationAnchor"
+        },
+        {
+          "Property": "Vertices",
+          "Type": "Array",
+          "ItemType": "Point"
+        },
+        {
+          "Property": "Transform",
+          "Type": "Transformation"
+        },
+        {
+          "Property": "ShapeType",
+          "Type": "ShapeType"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "string"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "string"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "uint"
+        },
+        {
+          "Property": "Visibility",
+          "Type": "VisibilityModes"
+        },
+        {
+          "Property": "OutlineColor",
+          "Type": "Color"
+        },
+        {
+          "Property": "OutlineSize",
+          "Type": "Float"
+        },
+        {
+          "Property": "OutlineStyle",
+          "Type": "OutlineStyle"
+        },
+        {
+          "Property": "Selectability",
+          "Type": "SelectabilityModes"
+        },
+        {
+          "Property": "ForcedWidth",
+          "Type": "Float"
+        },
+        {
+          "Property": "ForcedHeight",
+          "Type": "Float"
+        },
+        {
+          "Property": "DropShadow",
+          "Type": "Boolean"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "string"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "LocationImage",
+      "Class": "LocationImage",
+      "DisplayName": "LocationImage",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "string"
+        },
+        {
+          "Property": "PreviewImage",
+          "Type": "PreviewImage"
+        },
+        {
+          "Property": "Anchors",
+          "Type": "Array",
+          "ItemType": "LocationAnchor"
+        },
+        {
+          "Property": "Vertices",
+          "Type": "Array",
+          "ItemType": "Point"
+        },
+        {
+          "Property": "Transform",
+          "Type": "Transformation"
+        },
+        {
+          "Property": "ShapeType",
+          "Type": "ShapeType"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "string"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "string"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "uint"
+        },
+        {
+          "Property": "Visibility",
+          "Type": "VisibilityModes"
+        },
+        {
+          "Property": "OutlineColor",
+          "Type": "Color"
+        },
+        {
+          "Property": "OutlineSize",
+          "Type": "Float"
+        },
+        {
+          "Property": "OutlineStyle",
+          "Type": "OutlineStyle"
+        },
+        {
+          "Property": "Selectability",
+          "Type": "SelectabilityModes"
+        },
+        {
+          "Property": "DropShadow",
+          "Type": "Boolean"
+        },
+        {
+          "Property": "ClipRect",
+          "Type": "Rect"
+        },
+        {
+          "Property": "ImageOpacity",
+          "Type": "Float"
+        },
+        {
+          "Property": "ImageAsset",
+          "Type": "Id"
+        },
+        {
+          "Property": "CachedImageWidth",
+          "Type": "int"
+        },
+        {
+          "Property": "CachedImageHeight",
+          "Type": "int"
+        },
+        {
+          "Property": "ShowDisplayName",
+          "Type": "Boolean"
+        },
+        {
+          "Property": "DisplayNameColor",
+          "Type": "Color"
+        },
+        {
+          "Property": "DisplayNameSize",
+          "Type": "int"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "string"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "Document",
+      "Class": "Document",
+      "DisplayName": "Document",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "string"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "string"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "string"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "uint"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "string"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "TextObject",
+      "Class": "TextObject",
+      "DisplayName": "TextObject",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "string"
+        },
+        {
+          "Property": "Attachments",
+          "Type": "Array",
+          "ItemType": "Id"
+        },
+        {
+          "Property": "PreviewImage",
+          "Type": "PreviewImage"
+        },
+        {
+          "Property": "Color",
+          "Type": "Color"
+        },
+        {
+          "Property": "Text",
+          "Type": "string"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "string"
+        },
+        {
+          "Property": "Position",
+          "Type": "Point"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        },
+        {
+          "Property": "Size",
+          "Type": "Size"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "uint"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "string"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        }
+      ]
+    },
+    {
+      "Type": "UserFolder",
+      "Class": "UserFolder",
+      "DisplayName": "UserFolder",
+      "Properties": [
+        {
+          "Property": "DisplayName",
+          "Type": "string"
+        },
+        {
+          "Property": "ExternalId",
+          "Type": "string"
+        },
+        {
+          "Property": "ShortId",
+          "Type": "uint"
+        },
+        {
+          "Property": "Id",
+          "Type": "Id"
+        },
+        {
+          "Property": "TechnicalName",
+          "Type": "string"
+        },
+        {
+          "Property": "Parent",
+          "Type": "Id"
+        },
+        {
+          "Property": "ZIndex",
+          "Type": "Float"
+        }
+      ]
+    }
+  ],
+  "Packages": [
+    {
+      "Name": "All objects",
+      "Description": "Exports all objects & types of the project",
+      "IsDefaultPackage": true,
+      "Models": [
+        {
+          "Type": "FinnishSentence",
+          "Properties": {
+            "TechnicalName": "Dialogue1",
+            "Id": "0x01000000000005B1",
+            "Parent": "0x01000000000005A9",
+            "Attachments": [],
+            "DisplayName": "Dialogue1",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "ZIndex": 0.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 1062158121
+          },
+          "Template": {
+            "FinnishSentenceFeature": {
+              "SentenceText": "Päivää, tarvitsetteko apua laukkusi kanssa?",
+              "VoiceoverFile": "0x0000000000000000"
+            }
+          }
+        },
+        {
+          "Type": "FinnishSentence",
+          "Properties": {
+            "TechnicalName": "Answer1",
+            "Id": "0x01000000000005B5",
+            "Parent": "0x01000000000005A9",
+            "Attachments": [],
+            "DisplayName": "Answer1",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 20.0,
+              "y": 20.0
+            },
+            "ZIndex": 1.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 110845429
+          },
+          "Template": {
+            "FinnishSentenceFeature": {
+              "SentenceText": "Päivää, tarvitsen apua laukkuni kanssa.",
+              "VoiceoverFile": "0x0000000000000000"
+            }
+          }
+        },
+        {
+          "Type": "FinnishSentence",
+          "Properties": {
+            "TechnicalName": "Dialogue5",
+            "Id": "0x01000000000009C2",
+            "Parent": "0x01000000000005A9",
+            "Attachments": [],
+            "DisplayName": "Dialogue5",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 40.0,
+              "y": 40.0
+            },
+            "ZIndex": 2.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 3160394154
+          },
+          "Template": {
+            "FinnishSentenceFeature": {
+              "SentenceText": "Saisinko passinne?",
+              "VoiceoverFile": "0x0000000000000000"
+            }
+          }
+        },
+        {
+          "Type": "FinnishSentence",
+          "Properties": {
+            "TechnicalName": "Answer2",
+            "Id": "0x0100000000000A2F",
+            "Parent": "0x01000000000005A9",
+            "Attachments": [],
+            "DisplayName": "Answer2",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 139.5,
+              "y": 215.0
+            },
+            "ZIndex": 1.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 88984589
+          },
+          "Template": {
+            "FinnishSentenceFeature": {
+              "SentenceText": "Tulen Englannista: Lennon numero 1017",
+              "VoiceoverFile": "0x0000000000000000"
+            }
+          }
+        },
+        {
+          "Type": "FinnishSentence",
+          "Properties": {
+            "TechnicalName": "Answer3",
+            "Id": "0x0100000000000A34",
+            "Parent": "0x01000000000005A9",
+            "Attachments": [],
+            "DisplayName": "Answer3",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 136.5,
+              "y": 240.5
+            },
+            "ZIndex": 1.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 648022134
+          },
+          "Template": {
+            "FinnishSentenceFeature": {
+              "SentenceText": "Laukkuni on väriltään punainen.",
+              "VoiceoverFile": "0x0000000000000000"
+            }
+          }
+        },
+        {
+          "Type": "FinnishSentence",
+          "Properties": {
+            "TechnicalName": "Answer4",
+            "Id": "0x0100000000000A3E",
+            "Parent": "0x01000000000005A9",
+            "Attachments": [],
+            "DisplayName": "Answer4",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 136.5,
+              "y": 240.5
+            },
+            "ZIndex": 1.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 3567795611
+          },
+          "Template": {
+            "FinnishSentenceFeature": {
+              "SentenceText": "Laukussani ei ole kiellettyjä esineitä.",
+              "VoiceoverFile": "0x0000000000000000"
+            }
+          }
+        },
+        {
+          "Type": "FinnishSentence",
+          "Properties": {
+            "TechnicalName": "Dialogue3",
+            "Id": "0x0100000000000B47",
+            "Parent": "0x01000000000005A9",
+            "Attachments": [],
+            "DisplayName": "Dialogue3",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 164.0,
+              "y": 194.0
+            },
+            "ZIndex": 2.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 2295684176
+          },
+          "Template": {
+            "FinnishSentenceFeature": {
+              "SentenceText": "Minkä värinen laukkusi on?",
+              "VoiceoverFile": "0x0000000000000000"
+            }
+          }
+        },
+        {
+          "Type": "FinnishSentence",
+          "Properties": {
+            "TechnicalName": "Dialogue2",
+            "Id": "0x0100000000000B4C",
+            "Parent": "0x01000000000005A9",
+            "Attachments": [],
+            "DisplayName": "Dialogue2",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 134.0,
+              "y": 192.5
+            },
+            "ZIndex": 2.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 1007582426
+          },
+          "Template": {
+            "FinnishSentenceFeature": {
+              "SentenceText": "Mikä on sinun lentosi numero?",
+              "VoiceoverFile": "0x0000000000000000"
+            }
+          }
+        },
+        {
+          "Type": "FinnishSentence",
+          "Properties": {
+            "TechnicalName": "Dialogue4",
+            "Id": "0x0100000000000BC3",
+            "Parent": "0x01000000000005A9",
+            "Attachments": [],
+            "DisplayName": "Dialogue4",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 181.5,
+              "y": 336.5
+            },
+            "ZIndex": 2.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 2786700429
+          },
+          "Template": {
+            "FinnishSentenceFeature": {
+              "SentenceText": "Mikä on sinun lentosi numero?",
+              "VoiceoverFile": "0x0000000000000000"
+            }
+          }
+        },
+        {
+          "Type": "FinnishSentence",
+          "Properties": {
+            "TechnicalName": "Dialogue6",
+            "Id": "0x0100000000000BC8",
+            "Parent": "0x01000000000005A9",
+            "Attachments": [],
+            "DisplayName": "Dialogue6",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 181.5,
+              "y": 336.5
+            },
+            "ZIndex": 2.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 2528871923
+          },
+          "Template": {
+            "FinnishSentenceFeature": {
+              "SentenceText": "Matkatavaroiden luovutusalueesi on numero 6. Näkemiin!",
+              "VoiceoverFile": "0x0000000000000000"
+            }
+          }
+        },
+        {
+          "Type": "FinnishSentence",
+          "Properties": {
+            "TechnicalName": "Answer6",
+            "Id": "0x0100000000000BCD",
+            "Parent": "0x01000000000005A9",
+            "Attachments": [],
+            "DisplayName": "Answer6",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 128.0,
+              "y": 250.5
+            },
+            "ZIndex": 1.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 4024375073
+          },
+          "Template": {
+            "FinnishSentenceFeature": {
+              "SentenceText": "Kiitos, näkemiin.",
+              "VoiceoverFile": "0x0000000000000000"
+            }
+          }
+        },
+        {
+          "Type": "FinnishSentence",
+          "Properties": {
+            "TechnicalName": "Answer5",
+            "Id": "0x0100000000000BD2",
+            "Parent": "0x01000000000005A9",
+            "Attachments": [],
+            "DisplayName": "Answer5",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 128.0,
+              "y": 250.5
+            },
+            "ZIndex": 1.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 3243382997
+          },
+          "Template": {
+            "FinnishSentenceFeature": {
+              "SentenceText": "Tässä passini.",
+              "VoiceoverFile": "0x0000000000000000"
+            }
+          }
+        },
+        {
+          "Type": "DialogueLine",
+          "Properties": {
+            "TechnicalName": "DialogueSentence1",
+            "Id": "0x0100000000000597",
+            "Parent": "0x01000000000005AB",
+            "Attachments": [],
+            "DisplayName": "DialogueSentence1",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "ZIndex": 0.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 2662214084
+          },
+          "Template": {
+            "DialogueLineFeature": {
+              "Sentence": "0x01000000000005B1",
+              "Answer": "0x01000000000005E0",
+              "HintEmojis": [
+                "0x01000000000005D6",
+                "0x01000000000009C7",
+                "0x0100000000000A75",
+                "0x01000000000009D1",
+                "0x01000000000009CC"
+              ]
+            }
+          }
+        },
+        {
+          "Type": "DialogueLine",
+          "Properties": {
+            "TechnicalName": "DialogueSentence2",
+            "Id": "0x0100000000000B5D",
+            "Parent": "0x01000000000005AB",
+            "Attachments": [],
+            "DisplayName": "DialogueSentence2",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 127.0,
+              "y": 135.5
+            },
+            "ZIndex": 0.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 3887239345
+          },
+          "Template": {
+            "DialogueLineFeature": {
+              "Sentence": "0x0100000000000B4C",
+              "Answer": "0x0100000000000A57",
+              "HintEmojis": [
+                "0x0100000000000A75",
+                "0x0100000000000A00",
+                "0x01000000000009F6",
+                "0x01000000000009CC"
+              ]
+            }
+          }
+        },
+        {
+          "Type": "DialogueLine",
+          "Properties": {
+            "TechnicalName": "DialogueSentence3",
+            "Id": "0x0100000000000B63",
+            "Parent": "0x01000000000005AB",
+            "Attachments": [],
+            "DisplayName": "DialogueSentence3",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 124.0,
+              "y": 140.0
+            },
+            "ZIndex": 0.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 2559838923
+          },
+          "Template": {
+            "DialogueLineFeature": {
+              "Sentence": "0x0100000000000B47",
+              "Answer": "0x0100000000000A60",
+              "HintEmojis": [
+                "0x01000000000009E0",
+                "0x0100000000000A75",
+                "0x01000000000009D1",
+                "0x01000000000009CC"
+              ]
+            }
+          }
+        },
+        {
+          "Type": "DialogueLine",
+          "Properties": {
+            "TechnicalName": "DialogueSentence4",
+            "Id": "0x0100000000000B69",
+            "Parent": "0x01000000000005AB",
+            "Attachments": [],
+            "DisplayName": "DialogueSentence4",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 124.0,
+              "y": 147.5
+            },
+            "ZIndex": 0.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 3138723757
+          },
+          "Template": {
+            "DialogueLineFeature": {
+              "Sentence": "0x0100000000000BC3",
+              "Answer": "0x0100000000000A69",
+              "HintEmojis": [
+                "0x0100000000000A75",
+                "0x01000000000009EB",
+                "0x0100000000000A98",
+                "0x01000000000009D1",
+                "0x01000000000009CC"
+              ]
+            }
+          }
+        },
+        {
+          "Type": "DialogueLine",
+          "Properties": {
+            "TechnicalName": "DialogueSentence4",
+            "Id": "0x0100000000000BAB",
+            "Parent": "0x01000000000005AB",
+            "Attachments": [],
+            "DisplayName": "DialogueSentence5",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 141.5,
+              "y": 158.5
+            },
+            "ZIndex": 0.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 1852622594
+          },
+          "Template": {
+            "DialogueLineFeature": {
+              "Sentence": "0x01000000000009C2",
+              "Answer": "0x0100000000000BF6",
+              "HintEmojis": [
+                "0x01000000000009DB",
+                "0x0100000000000A75",
+                "0x0100000000000C05",
+                "0x01000000000009CC"
+              ]
+            }
+          }
+        },
+        {
+          "Type": "DialogueLine",
+          "Properties": {
+            "TechnicalName": "DialogueSentence4",
+            "Id": "0x0100000000000BB7",
+            "Parent": "0x01000000000005AB",
+            "Attachments": [],
+            "DisplayName": "DialogueSentence6",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 168.5,
+              "y": 196.0
+            },
+            "ZIndex": 0.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 291772703
+          },
+          "Template": {
+            "DialogueLineFeature": {
+              "Sentence": "0x0100000000000BC8",
+              "Answer": "0x0100000000000BEB",
+              "HintEmojis": [
+                "0x0100000000000A75",
+                "0x0100000000000A05",
+                "0x01000000000009F6",
+                "0x0100000000000C19"
+              ]
+            }
+          }
+        },
+        {
+          "Type": "InspectableSentence",
+          "Properties": {
+            "TechnicalName": "Inspectable1",
+            "Id": "0x01000000000005E0",
+            "Parent": "0x01000000000005AD",
+            "Attachments": [],
+            "DisplayName": "Inspectable1",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "ZIndex": 0.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 1594187816
+          },
+          "Template": {
+            "InspectableSentenceFeature": {
+              "Sentence": "0x01000000000005B5",
+              "CorrectEmojis": [
+                "0x01000000000005D6",
+                "0x01000000000009C7",
+                "0x0100000000000A8A",
+                "0x01000000000009D1"
+              ]
+            }
+          }
+        },
+        {
+          "Type": "InspectableSentence",
+          "Properties": {
+            "TechnicalName": "Inspectable2",
+            "Id": "0x0100000000000A57",
+            "Parent": "0x01000000000005AD",
+            "Attachments": [],
+            "DisplayName": "Inspectable2",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 167.0,
+              "y": 357.5
+            },
+            "ZIndex": 0.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 2304767548
+          },
+          "Template": {
+            "InspectableSentenceFeature": {
+              "Sentence": "0x0100000000000A2F",
+              "CorrectEmojis": [
+                "0x0100000000000A00",
+                "0x01000000000009F6",
+                "0x0100000000000A7F",
+                "0x0100000000000A19"
+              ]
+            }
+          }
+        },
+        {
+          "Type": "InspectableSentence",
+          "Properties": {
+            "TechnicalName": "Inspectable3",
+            "Id": "0x0100000000000A60",
+            "Parent": "0x01000000000005AD",
+            "Attachments": [],
+            "DisplayName": "Inspectable3",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 149.0,
+              "y": 383.0
+            },
+            "ZIndex": 0.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 784161613
+          },
+          "Template": {
+            "InspectableSentenceFeature": {
+              "Sentence": "0x0100000000000A34",
+              "CorrectEmojis": [
+                "0x01000000000009D1",
+                "0x01000000000009E0",
+                "0x0100000000000A8A"
+              ]
+            }
+          }
+        },
+        {
+          "Type": "InspectableSentence",
+          "Properties": {
+            "TechnicalName": "Inspectable4",
+            "Id": "0x0100000000000A69",
+            "Parent": "0x01000000000005AD",
+            "Attachments": [],
+            "DisplayName": "Inspectable4",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 159.5,
+              "y": 393.5
+            },
+            "ZIndex": 0.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 1912251415
+          },
+          "Template": {
+            "InspectableSentenceFeature": {
+              "Sentence": "0x0100000000000A3E",
+              "CorrectEmojis": [
+                "0x0100000000000A8A",
+                "0x0100000000000A98",
+                "0x01000000000009EB",
+                "0x01000000000009D1"
+              ]
+            }
+          }
+        },
+        {
+          "Type": "InspectableSentence",
+          "Properties": {
+            "TechnicalName": "Inspectable6",
+            "Id": "0x0100000000000BEB",
+            "Parent": "0x01000000000005AD",
+            "Attachments": [],
+            "DisplayName": "Inspectable6",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 176.5,
+              "y": 397.0
+            },
+            "ZIndex": 0.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 38322643
+          },
+          "Template": {
+            "InspectableSentenceFeature": {
+              "Sentence": "0x0100000000000BCD",
+              "CorrectEmojis": [
+                "0x01000000000005D6"
+              ]
+            }
+          }
+        },
+        {
+          "Type": "InspectableSentence",
+          "Properties": {
+            "TechnicalName": "Inspectable5",
+            "Id": "0x0100000000000BF6",
+            "Parent": "0x01000000000005AD",
+            "Attachments": [],
+            "DisplayName": "Inspectable5",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 151.5,
+              "y": 424.0
+            },
+            "ZIndex": 0.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 1523148238
+          },
+          "Template": {
+            "InspectableSentenceFeature": {
+              "Sentence": "0x0100000000000BD2",
+              "CorrectEmojis": [
+                "0x0100000000000C05"
+              ]
+            }
+          }
+        },
+        {
+          "Type": "Emoji",
+          "Properties": {
+            "TechnicalName": "TravelEmoji",
+            "Id": "0x01000000000005BB",
+            "Parent": "0x01000000000005AF",
+            "Attachments": [],
+            "DisplayName": "TravelEmoji",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "ZIndex": 0.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 1062641820
+          },
+          "Template": {
+            "EmojiFeature": {
+              "Meaning": "travel",
+              "EmojiSprite": "0x0100000000000CB0"
+            }
+          }
+        },
+        {
+          "Type": "Emoji",
+          "Properties": {
+            "TechnicalName": "GreetingEmoji",
+            "Id": "0x01000000000005D6",
+            "Parent": "0x01000000000005AF",
+            "Attachments": [],
+            "DisplayName": "GreetingEmoji",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 20.0,
+              "y": 20.0
+            },
+            "ZIndex": 1.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 4066905198
+          },
+          "Template": {
+            "EmojiFeature": {
+              "Meaning": "greeting",
+              "EmojiSprite": "0x0100000000000CAD"
+            }
+          }
+        },
+        {
+          "Type": "Emoji",
+          "Properties": {
+            "TechnicalName": "HelpEmoji",
+            "Id": "0x01000000000009C7",
+            "Parent": "0x01000000000005AF",
+            "Attachments": [],
+            "DisplayName": "HelpEmoji",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 40.0,
+              "y": 40.0
+            },
+            "ZIndex": 2.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 389148476
+          },
+          "Template": {
+            "EmojiFeature": {
+              "Meaning": "help",
+              "EmojiSprite": "0x0100000000000CAA"
+            }
+          }
+        },
+        {
+          "Type": "Emoji",
+          "Properties": {
+            "TechnicalName": "QuestionEmoji",
+            "Id": "0x01000000000009CC",
+            "Parent": "0x01000000000005AF",
+            "Attachments": [],
+            "DisplayName": "QuestionEmoji",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 60.0,
+              "y": 60.0
+            },
+            "ZIndex": 3.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 1669579124
+          },
+          "Template": {
+            "EmojiFeature": {
+              "Meaning": "question",
+              "EmojiSprite": "0x0100000000000CA7"
+            }
+          }
+        },
+        {
+          "Type": "Emoji",
+          "Properties": {
+            "TechnicalName": "LuggageEmoji",
+            "Id": "0x01000000000009D1",
+            "Parent": "0x01000000000005AF",
+            "Attachments": [],
+            "DisplayName": "LuggageEmoji",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 80.0,
+              "y": 80.0
+            },
+            "ZIndex": 4.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 652774380
+          },
+          "Template": {
+            "EmojiFeature": {
+              "Meaning": "luggage",
+              "EmojiSprite": "0x0100000000000CA4"
+            }
+          }
+        },
+        {
+          "Type": "Emoji",
+          "Properties": {
+            "TechnicalName": "GiveEmoji",
+            "Id": "0x01000000000009DB",
+            "Parent": "0x01000000000005AF",
+            "Attachments": [],
+            "DisplayName": "GiveEmoji",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 120.0,
+              "y": 120.0
+            },
+            "ZIndex": 6.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 3716851150
+          },
+          "Template": {
+            "EmojiFeature": {
+              "Meaning": "give",
+              "EmojiSprite": "0x0100000000000CA1"
+            }
+          }
+        },
+        {
+          "Type": "Emoji",
+          "Properties": {
+            "TechnicalName": "ColorsEmoji",
+            "Id": "0x01000000000009E0",
+            "Parent": "0x01000000000005AF",
+            "Attachments": [],
+            "DisplayName": "ColorsEmoji",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 140.0,
+              "y": 140.0
+            },
+            "ZIndex": 7.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 2558058140
+          },
+          "Template": {
+            "EmojiFeature": {
+              "Meaning": "colors",
+              "EmojiSprite": "0x0100000000000C9E"
+            }
+          }
+        },
+        {
+          "Type": "Emoji",
+          "Properties": {
+            "TechnicalName": "ContentEmoji",
+            "Id": "0x01000000000009EB",
+            "Parent": "0x01000000000005AF",
+            "Attachments": [],
+            "DisplayName": "ContentEmoji",
+            "Color": {
+              "r": 1.0,
+              "g": 0.527115166,
+              "b": 0.0
+            },
+            "Text": "Content / items",
+            "ExternalId": "",
+            "Position": {
+              "x": 180.0,
+              "y": 180.0
+            },
+            "ZIndex": 9.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 3693323132
+          },
+          "Template": {
+            "EmojiFeature": {
+              "Meaning": "content",
+              "EmojiSprite": "0x0100000000000C9B"
+            }
+          }
+        },
+        {
+          "Type": "Emoji",
+          "Properties": {
+            "TechnicalName": "NumberEmoji",
+            "Id": "0x01000000000009F6",
+            "Parent": "0x01000000000005AF",
+            "Attachments": [],
+            "DisplayName": "NumberEmoji",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 220.0,
+              "y": 220.0
+            },
+            "ZIndex": 11.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 41175283
+          },
+          "Template": {
+            "EmojiFeature": {
+              "Meaning": "number",
+              "EmojiSprite": "0x0100000000000C98"
+            }
+          }
+        },
+        {
+          "Type": "Emoji",
+          "Properties": {
+            "TechnicalName": "FlightEmoji",
+            "Id": "0x0100000000000A00",
+            "Parent": "0x01000000000005AF",
+            "Attachments": [],
+            "DisplayName": "FlightEmoji",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 260.0,
+              "y": 260.0
+            },
+            "ZIndex": 13.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 3106904226
+          },
+          "Template": {
+            "EmojiFeature": {
+              "Meaning": "flight",
+              "EmojiSprite": "0x0100000000000C95"
+            }
+          }
+        },
+        {
+          "Type": "Emoji",
+          "Properties": {
+            "TechnicalName": "BaggageClaimEmoji",
+            "Id": "0x0100000000000A05",
+            "Parent": "0x01000000000005AF",
+            "Attachments": [],
+            "DisplayName": "BaggageClaimEmoji",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 280.0,
+              "y": 280.0
+            },
+            "ZIndex": 14.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 3895396131
+          },
+          "Template": {
+            "EmojiFeature": {
+              "Meaning": "baggage claim",
+              "EmojiSprite": "0x0100000000000C92"
+            }
+          }
+        },
+        {
+          "Type": "Emoji",
+          "Properties": {
+            "TechnicalName": "ArrivalsEmoji",
+            "Id": "0x0100000000000A19",
+            "Parent": "0x01000000000005AF",
+            "Attachments": [],
+            "DisplayName": "ArrivalsEmoji",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 360.0,
+              "y": 360.0
+            },
+            "ZIndex": 18.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 354495478
+          },
+          "Template": {
+            "EmojiFeature": {
+              "Meaning": "arrivals",
+              "EmojiSprite": "0x0100000000000C8C"
+            }
+          }
+        },
+        {
+          "Type": "Emoji",
+          "Properties": {
+            "TechnicalName": "Ntt_45E7BA76",
+            "Id": "0x0100000000000A75",
+            "Parent": "0x01000000000005AF",
+            "Attachments": [],
+            "DisplayName": "You",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 158.0,
+              "y": 124.0
+            },
+            "ZIndex": 22.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 1172814454
+          },
+          "Template": {
+            "EmojiFeature": {
+              "Meaning": "you",
+              "EmojiSprite": "0x0100000000000C89"
+            }
+          }
+        },
+        {
+          "Type": "Emoji",
+          "Properties": {
+            "TechnicalName": "Ntt_2775B577",
+            "Id": "0x0100000000000A7F",
+            "Parent": "0x01000000000005AF",
+            "Attachments": [],
+            "DisplayName": "England",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 108.5,
+              "y": 81.0
+            },
+            "ZIndex": 23.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 662025591
+          },
+          "Template": {
+            "EmojiFeature": {
+              "Meaning": "England",
+              "EmojiSprite": "0x0100000000000C86"
+            }
+          }
+        },
+        {
+          "Type": "Emoji",
+          "Properties": {
+            "TechnicalName": "Ntt_8596B19E",
+            "Id": "0x0100000000000A8A",
+            "Parent": "0x01000000000005AF",
+            "Attachments": [],
+            "DisplayName": "Me",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 152.0,
+              "y": 68.0
+            },
+            "ZIndex": 24.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 2241245598
+          },
+          "Template": {
+            "EmojiFeature": {
+              "Meaning": "Me",
+              "EmojiSprite": "0x0100000000000C7D"
+            }
+          }
+        },
+        {
+          "Type": "Emoji",
+          "Properties": {
+            "TechnicalName": "Ntt_8C6F4E36",
+            "Id": "0x0100000000000A98",
+            "Parent": "0x01000000000005AF",
+            "Attachments": [],
+            "DisplayName": "Prohibited",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 341.5,
+              "y": 455.0
+            },
+            "ZIndex": 26.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 2356104758
+          },
+          "Template": {
+            "EmojiFeature": {
+              "Meaning": "prohibited",
+              "EmojiSprite": "0x0100000000000C8F"
+            }
+          }
+        },
+        {
+          "Type": "Emoji",
+          "Properties": {
+            "TechnicalName": "Ntt_E1CB8B22",
+            "Id": "0x0100000000000C05",
+            "Parent": "0x01000000000005AF",
+            "Attachments": [],
+            "DisplayName": "Passport",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 183.5,
+              "y": 78.5
+            },
+            "ZIndex": 21.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 3788213026
+          },
+          "Template": {
+            "EmojiFeature": {
+              "Meaning": "passport",
+              "EmojiSprite": "0x0100000000000C80"
+            }
+          }
+        },
+        {
+          "Type": "NPC",
+          "Properties": {
+            "TechnicalName": "AirportClerk",
+            "Id": "0x010000000000060E",
+            "Parent": "0x01000000000005F7",
+            "Attachments": [],
+            "DisplayName": "AirportClerk example",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "ZIndex": 0.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 1162021838
+          },
+          "Template": {
+            "NPCFeature": {
+              "dialogueLines": [
+                "0x0100000000000597",
+                "0x0100000000000B5D",
+                "0x0100000000000B63"
+              ],
+              "codeName": "Clerk",
+              "stageNumber": 1.0
+            }
+          }
+        },
+        {
+          "Type": "Asset",
+          "AssetRef": "Assets/Images/Me.png",
+          "Category": "Image",
+          "Properties": {
+            "TechnicalName": "Ast_FED774C1",
+            "Id": "0x0100000000000C7D",
+            "Parent": "0x0100000000000105",
+            "DisplayName": "Me",
+            "Filename": "Me(0D7D).png",
+            "OriginalSource": "file:///C:/Users/jaakk/Downloads/Language game emojis/Me.png",
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              }
+            },
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "ZIndex": 0.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "ShortId": 4275532993
+          }
+        },
+        {
+          "Type": "Asset",
+          "AssetRef": "Assets/Images/Passport.png",
+          "Category": "Image",
+          "Properties": {
+            "TechnicalName": "Ast_E19C7FEF",
+            "Id": "0x0100000000000C80",
+            "Parent": "0x0100000000000105",
+            "DisplayName": "Passport",
+            "Filename": "Passport(0D80).png",
+            "OriginalSource": "file:///C:/Users/jaakk/Downloads/Language game emojis/Passport.png",
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              }
+            },
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 20.0,
+              "y": 20.0
+            },
+            "ZIndex": 1.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "ShortId": 3785129967
+          }
+        },
+        {
+          "Type": "Asset",
+          "AssetRef": "Assets/Images/No.png",
+          "Category": "Image",
+          "Properties": {
+            "TechnicalName": "Ast_F6D6A0F6",
+            "Id": "0x0100000000000C83",
+            "Parent": "0x0100000000000105",
+            "DisplayName": "No",
+            "Filename": "No(0D83).png",
+            "OriginalSource": "file:///C:/Users/jaakk/Downloads/Language game emojis/No.png",
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              }
+            },
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 40.0,
+              "y": 40.0
+            },
+            "ZIndex": 2.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "ShortId": 4141261046
+          }
+        },
+        {
+          "Type": "Asset",
+          "AssetRef": "Assets/Images/England.png",
+          "Category": "Image",
+          "Properties": {
+            "TechnicalName": "Ast_F6255BED",
+            "Id": "0x0100000000000C86",
+            "Parent": "0x0100000000000105",
+            "DisplayName": "England",
+            "Filename": "England(0D86).png",
+            "OriginalSource": "file:///C:/Users/jaakk/Downloads/Language game emojis/England.png",
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              }
+            },
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 60.0,
+              "y": 60.0
+            },
+            "ZIndex": 3.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "ShortId": 4129643501
+          }
+        },
+        {
+          "Type": "Asset",
+          "AssetRef": "Assets/Images/You.png",
+          "Category": "Image",
+          "Properties": {
+            "TechnicalName": "Ast_763A34A0",
+            "Id": "0x0100000000000C89",
+            "Parent": "0x0100000000000105",
+            "DisplayName": "You",
+            "Filename": "You(0D89).png",
+            "OriginalSource": "file:///C:/Users/jaakk/Downloads/Language game emojis/You.png",
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              }
+            },
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 80.0,
+              "y": 80.0
+            },
+            "ZIndex": 4.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "ShortId": 1983526048
+          }
+        },
+        {
+          "Type": "Asset",
+          "AssetRef": "Assets/Images/Arrivals.png",
+          "Category": "Image",
+          "Properties": {
+            "TechnicalName": "Ast_37387CE6",
+            "Id": "0x0100000000000C8C",
+            "Parent": "0x0100000000000105",
+            "DisplayName": "Arrivals",
+            "Filename": "Arrivals(0D8C).png",
+            "OriginalSource": "file:///C:/Users/jaakk/Downloads/Language game emojis/Arrivals.png",
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              }
+            },
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 100.0,
+              "y": 100.0
+            },
+            "ZIndex": 5.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "ShortId": 926448870
+          }
+        },
+        {
+          "Type": "Asset",
+          "AssetRef": "Assets/Images/Prohibited.png",
+          "Category": "Image",
+          "Properties": {
+            "TechnicalName": "Ast_7279F5E0",
+            "Id": "0x0100000000000C8F",
+            "Parent": "0x0100000000000105",
+            "DisplayName": "Prohibited",
+            "Filename": "Prohibited(0D8F).png",
+            "OriginalSource": "file:///C:/Users/jaakk/Downloads/Language game emojis/Prohibited.png",
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              }
+            },
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 120.0,
+              "y": 120.0
+            },
+            "ZIndex": 6.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "ShortId": 1920595424
+          }
+        },
+        {
+          "Type": "Asset",
+          "AssetRef": "Assets/Images/BaggageClaim.png",
+          "Category": "Image",
+          "Properties": {
+            "TechnicalName": "Ast_99AF1A93",
+            "Id": "0x0100000000000C92",
+            "Parent": "0x0100000000000105",
+            "DisplayName": "BaggageClaim",
+            "Filename": "BaggageClaim(0D92).png",
+            "OriginalSource": "file:///C:/Users/jaakk/Downloads/Language game emojis/BaggageClaim.png",
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              }
+            },
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 140.0,
+              "y": 140.0
+            },
+            "ZIndex": 7.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "ShortId": 2578389651
+          }
+        },
+        {
+          "Type": "Asset",
+          "AssetRef": "Assets/Images/Flight.png",
+          "Category": "Image",
+          "Properties": {
+            "TechnicalName": "Ast_6264A1CF",
+            "Id": "0x0100000000000C95",
+            "Parent": "0x0100000000000105",
+            "DisplayName": "Flight",
+            "Filename": "Flight(0D95).png",
+            "OriginalSource": "file:///C:/Users/jaakk/Downloads/Language game emojis/Flight.png",
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              }
+            },
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 160.0,
+              "y": 160.0
+            },
+            "ZIndex": 8.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "ShortId": 1650762191
+          }
+        },
+        {
+          "Type": "Asset",
+          "AssetRef": "Assets/Images/Number.png",
+          "Category": "Image",
+          "Properties": {
+            "TechnicalName": "Ast_0F7EE785",
+            "Id": "0x0100000000000C98",
+            "Parent": "0x0100000000000105",
+            "DisplayName": "Number",
+            "Filename": "Number(0D98).png",
+            "OriginalSource": "file:///C:/Users/jaakk/Downloads/Language game emojis/Number.png",
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              }
+            },
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 180.0,
+              "y": 180.0
+            },
+            "ZIndex": 9.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "ShortId": 259975045
+          }
+        },
+        {
+          "Type": "Asset",
+          "AssetRef": "Assets/Images/Contents.png",
+          "Category": "Image",
+          "Properties": {
+            "TechnicalName": "Ast_B892F96E",
+            "Id": "0x0100000000000C9B",
+            "Parent": "0x0100000000000105",
+            "DisplayName": "Contents",
+            "Filename": "Contents(0D9B).png",
+            "OriginalSource": "file:///C:/Users/jaakk/Downloads/Language game emojis/Contents.png",
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              }
+            },
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 200.0,
+              "y": 200.0
+            },
+            "ZIndex": 10.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "ShortId": 3096639854
+          }
+        },
+        {
+          "Type": "Asset",
+          "AssetRef": "Assets/Images/Colors.png",
+          "Category": "Image",
+          "Properties": {
+            "TechnicalName": "Ast_9C2BE120",
+            "Id": "0x0100000000000C9E",
+            "Parent": "0x0100000000000105",
+            "DisplayName": "Colors",
+            "Filename": "Colors(0D9E).png",
+            "OriginalSource": "file:///C:/Users/jaakk/Downloads/Language game emojis/Colors.png",
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              }
+            },
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 220.0,
+              "y": 220.0
+            },
+            "ZIndex": 11.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "ShortId": 2620121376
+          }
+        },
+        {
+          "Type": "Asset",
+          "AssetRef": "Assets/Images/Give.png",
+          "Category": "Image",
+          "Properties": {
+            "TechnicalName": "Ast_C69FB87A",
+            "Id": "0x0100000000000CA1",
+            "Parent": "0x0100000000000105",
+            "DisplayName": "Give",
+            "Filename": "Give(0DA1).png",
+            "OriginalSource": "file:///C:/Users/jaakk/Downloads/Language game emojis/Give.png",
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              }
+            },
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 240.0,
+              "y": 240.0
+            },
+            "ZIndex": 12.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "ShortId": 3332356218
+          }
+        },
+        {
+          "Type": "Asset",
+          "AssetRef": "Assets/Images/Luggage.png",
+          "Category": "Image",
+          "Properties": {
+            "TechnicalName": "Ast_9F07EB79",
+            "Id": "0x0100000000000CA4",
+            "Parent": "0x0100000000000105",
+            "DisplayName": "Luggage",
+            "Filename": "Luggage(0DA4).png",
+            "OriginalSource": "file:///C:/Users/jaakk/Downloads/Language game emojis/Luggage.png",
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              }
+            },
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 260.0,
+              "y": 260.0
+            },
+            "ZIndex": 13.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "ShortId": 2668096377
+          }
+        },
+        {
+          "Type": "Asset",
+          "AssetRef": "Assets/Images/Question.png",
+          "Category": "Image",
+          "Properties": {
+            "TechnicalName": "Ast_A265C7F9",
+            "Id": "0x0100000000000CA7",
+            "Parent": "0x0100000000000105",
+            "DisplayName": "Question",
+            "Filename": "Question(0DA7).png",
+            "OriginalSource": "file:///C:/Users/jaakk/Downloads/Language game emojis/Question.png",
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              }
+            },
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 280.0,
+              "y": 280.0
+            },
+            "ZIndex": 14.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "ShortId": 2724579321
+          }
+        },
+        {
+          "Type": "Asset",
+          "AssetRef": "Assets/Images/Help.png",
+          "Category": "Image",
+          "Properties": {
+            "TechnicalName": "Ast_BDC3FBEC",
+            "Id": "0x0100000000000CAA",
+            "Parent": "0x0100000000000105",
+            "DisplayName": "Help",
+            "Filename": "Help(0DAA).png",
+            "OriginalSource": "file:///C:/Users/jaakk/Downloads/Language game emojis/Help.png",
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              }
+            },
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 300.0,
+              "y": 300.0
+            },
+            "ZIndex": 15.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "ShortId": 3183737836
+          }
+        },
+        {
+          "Type": "Asset",
+          "AssetRef": "Assets/Images/Greet.png",
+          "Category": "Image",
+          "Properties": {
+            "TechnicalName": "Ast_72B57B7A",
+            "Id": "0x0100000000000CAD",
+            "Parent": "0x0100000000000105",
+            "DisplayName": "Greet",
+            "Filename": "Greet(0DAD).png",
+            "OriginalSource": "file:///C:/Users/jaakk/Downloads/Language game emojis/Greet.png",
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              }
+            },
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 320.0,
+              "y": 320.0
+            },
+            "ZIndex": 16.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "ShortId": 1924496250
+          }
+        },
+        {
+          "Type": "Asset",
+          "AssetRef": "Assets/Images/Travel.png",
+          "Category": "Image",
+          "Properties": {
+            "TechnicalName": "Ast_8CE9687B",
+            "Id": "0x0100000000000CB0",
+            "Parent": "0x0100000000000105",
+            "DisplayName": "Travel",
+            "Filename": "Travel(0DB0).png",
+            "OriginalSource": "file:///C:/Users/jaakk/Downloads/Language game emojis/Travel.png",
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              }
+            },
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 340.0,
+              "y": 340.0
+            },
+            "ZIndex": 17.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "ShortId": 2364106875
+          }
+        },
+        {
+          "Type": "UserFolder",
+          "Properties": {
+            "TechnicalName": "Ufo_34E04350",
+            "Id": "0x0100000000000105",
+            "Parent": "0x030000004C3DAF54",
+            "DisplayName": "Images",
+            "ExternalId": "",
+            "ShortId": 887112528
+          }
+        },
+        {
+          "Type": "UserFolder",
+          "Properties": {
+            "TechnicalName": "Ufo_13312DED",
+            "Id": "0x0100000000000107",
+            "Parent": "0x030000004C3DAF54",
+            "DisplayName": "Videos",
+            "ExternalId": "",
+            "ShortId": 321990125
+          }
+        },
+        {
+          "Type": "UserFolder",
+          "Properties": {
+            "TechnicalName": "Ufo_6F5E9717",
+            "Id": "0x0100000000000109",
+            "Parent": "0x030000004C3DAF54",
+            "DisplayName": "Audio",
+            "ExternalId": "",
+            "ShortId": 1868470039
+          }
+        },
+        {
+          "Type": "UserFolder",
+          "Properties": {
+            "TechnicalName": "Ufo_514E7120",
+            "Id": "0x010000000000010B",
+            "Parent": "0x030000004C3DAF54",
+            "DisplayName": "Documents",
+            "ExternalId": "",
+            "ShortId": 1364095264
+          }
+        },
+        {
+          "Type": "UserFolder",
+          "Properties": {
+            "TechnicalName": "Ufo_4F53BD69",
+            "Id": "0x010000000000010D",
+            "Parent": "0x030000004C3DAF54",
+            "DisplayName": "Miscellaneous",
+            "ExternalId": "",
+            "ShortId": 1330888041
+          }
+        },
+        {
+          "Type": "UserFolder",
+          "Properties": {
+            "TechnicalName": "Ufo_A9D725FA",
+            "Id": "0x01000000000005A9",
+            "Parent": "0x03000000AC61A2B3",
+            "DisplayName": "FinnishSentences",
+            "ExternalId": "",
+            "ShortId": 2849449466
+          }
+        },
+        {
+          "Type": "UserFolder",
+          "Properties": {
+            "TechnicalName": "Ufo_87BEFE1B",
+            "Id": "0x01000000000005AB",
+            "Parent": "0x03000000AC61A2B3",
+            "DisplayName": "DialogueSentences",
+            "ExternalId": "",
+            "ShortId": 2277441051
+          }
+        },
+        {
+          "Type": "UserFolder",
+          "Properties": {
+            "TechnicalName": "Ufo_5A487870",
+            "Id": "0x01000000000005AD",
+            "Parent": "0x03000000AC61A2B3",
+            "DisplayName": "InspectableSentences",
+            "ExternalId": "",
+            "ShortId": 1514698864
+          }
+        },
+        {
+          "Type": "UserFolder",
+          "Properties": {
+            "TechnicalName": "Ufo_48C6ABE9",
+            "Id": "0x01000000000005AF",
+            "Parent": "0x03000000AC61A2B3",
+            "DisplayName": "Emojis",
+            "ExternalId": "",
+            "ShortId": 1220979689
+          }
+        },
+        {
+          "Type": "UserFolder",
+          "Properties": {
+            "TechnicalName": "Ufo_5B63E3AE",
+            "Id": "0x01000000000005F7",
+            "Parent": "0x03000000AC61A2B3",
+            "DisplayName": "NPCs",
+            "ExternalId": "",
+            "ShortId": 1533273006
+          }
+        }
+      ]
+    }
+  ],
+  "ScriptMethods": [],
+  "Hierarchy": {
+    "Id": "0x0100000000000001",
+    "TechnicalName": "Languagegamearticy",
+    "Type": "Project",
+    "Children": [
+      {
+        "Id": "0x03000000F917511B",
+        "TechnicalName": "ProjectSettings",
+        "Type": "ProjectSettingsFolder",
+        "Children": [
+          {
+            "Id": "0x01000000000000FD",
+            "TechnicalName": "",
+            "Type": "ProjectSettingsFlow"
+          },
+          {
+            "Id": "0x01000000000000FA",
+            "TechnicalName": "",
+            "Type": "ProjectSettingsGeneral"
+          },
+          {
+            "Id": "0x01000000000000FB",
+            "TechnicalName": "",
+            "Type": "ProjectSettingsJourneys"
+          },
+          {
+            "Id": "0x01000000000000FC",
+            "TechnicalName": "",
+            "Type": "ProjectSettingsLocation"
+          }
+        ]
+      },
+      {
+        "Id": "0x030000002B4F4C54",
+        "TechnicalName": "GlobalVariables",
+        "Type": "GlobalVariables"
+      },
+      {
+        "Id": "0x0300000043CE43F7",
+        "TechnicalName": "Flow",
+        "Type": "Flow"
+      },
+      {
+        "Id": "0x03000000AC61A2B3",
+        "TechnicalName": "Entities",
+        "Type": "Entities",
+        "Children": [
+          {
+            "Id": "0x01000000000005AB",
+            "TechnicalName": "Ufo_87BEFE1B",
+            "Type": "EntitiesUserFolder",
+            "Children": [
+              {
+                "Id": "0x0100000000000597",
+                "TechnicalName": "DialogueSentence1",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000B5D",
+                "TechnicalName": "DialogueSentence2",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000B63",
+                "TechnicalName": "DialogueSentence3",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000B69",
+                "TechnicalName": "DialogueSentence4",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000BAB",
+                "TechnicalName": "DialogueSentence4",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000BB7",
+                "TechnicalName": "DialogueSentence4",
+                "Type": "Entity"
+              }
+            ]
+          },
+          {
+            "Id": "0x01000000000005AF",
+            "TechnicalName": "Ufo_48C6ABE9",
+            "Type": "EntitiesUserFolder",
+            "Children": [
+              {
+                "Id": "0x0100000000000A19",
+                "TechnicalName": "ArrivalsEmoji",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000A05",
+                "TechnicalName": "BaggageClaimEmoji",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x01000000000009E0",
+                "TechnicalName": "ColorsEmoji",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x01000000000009EB",
+                "TechnicalName": "ContentEmoji",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000A7F",
+                "TechnicalName": "Ntt_2775B577",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000A00",
+                "TechnicalName": "FlightEmoji",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x01000000000009DB",
+                "TechnicalName": "GiveEmoji",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x01000000000005D6",
+                "TechnicalName": "GreetingEmoji",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x01000000000009C7",
+                "TechnicalName": "HelpEmoji",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x01000000000009D1",
+                "TechnicalName": "LuggageEmoji",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000A8A",
+                "TechnicalName": "Ntt_8596B19E",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x01000000000009F6",
+                "TechnicalName": "NumberEmoji",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000C05",
+                "TechnicalName": "Ntt_E1CB8B22",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000A98",
+                "TechnicalName": "Ntt_8C6F4E36",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x01000000000009CC",
+                "TechnicalName": "QuestionEmoji",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x01000000000005BB",
+                "TechnicalName": "TravelEmoji",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000A75",
+                "TechnicalName": "Ntt_45E7BA76",
+                "Type": "Entity"
+              }
+            ]
+          },
+          {
+            "Id": "0x01000000000005A9",
+            "TechnicalName": "Ufo_A9D725FA",
+            "Type": "EntitiesUserFolder",
+            "Children": [
+              {
+                "Id": "0x01000000000005B5",
+                "TechnicalName": "Answer1",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000A2F",
+                "TechnicalName": "Answer2",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000A34",
+                "TechnicalName": "Answer3",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000A3E",
+                "TechnicalName": "Answer4",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000BD2",
+                "TechnicalName": "Answer5",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000BCD",
+                "TechnicalName": "Answer6",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x01000000000005B1",
+                "TechnicalName": "Dialogue1",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000B4C",
+                "TechnicalName": "Dialogue2",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000B47",
+                "TechnicalName": "Dialogue3",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000BC3",
+                "TechnicalName": "Dialogue4",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x01000000000009C2",
+                "TechnicalName": "Dialogue5",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000BC8",
+                "TechnicalName": "Dialogue6",
+                "Type": "Entity"
+              }
+            ]
+          },
+          {
+            "Id": "0x01000000000005AD",
+            "TechnicalName": "Ufo_5A487870",
+            "Type": "EntitiesUserFolder",
+            "Children": [
+              {
+                "Id": "0x01000000000005E0",
+                "TechnicalName": "Inspectable1",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000A57",
+                "TechnicalName": "Inspectable2",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000A60",
+                "TechnicalName": "Inspectable3",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000A69",
+                "TechnicalName": "Inspectable4",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000BF6",
+                "TechnicalName": "Inspectable5",
+                "Type": "Entity"
+              },
+              {
+                "Id": "0x0100000000000BEB",
+                "TechnicalName": "Inspectable6",
+                "Type": "Entity"
+              }
+            ]
+          },
+          {
+            "Id": "0x01000000000005F7",
+            "TechnicalName": "Ufo_5B63E3AE",
+            "Type": "EntitiesUserFolder",
+            "Children": [
+              {
+                "Id": "0x010000000000060E",
+                "TechnicalName": "AirportClerk",
+                "Type": "Entity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": "0x030000003140D3AC",
+        "TechnicalName": "Locations",
+        "Type": "Locations"
+      },
+      {
+        "Id": "0x03000000103AA2F0",
+        "TechnicalName": "Documents",
+        "Type": "Documents"
+      },
+      {
+        "Id": "0x03000000236F7272",
+        "TechnicalName": "Journeys",
+        "Type": "Journeys"
+      },
+      {
+        "Id": "0x0300000029CF057C",
+        "TechnicalName": "TemplateDesign",
+        "Type": "TemplateDesign",
+        "Children": [
+          {
+            "Id": "0x03000000D2404DC0",
+            "TechnicalName": "Features",
+            "Type": "Features",
+            "Children": [
+              {
+                "Id": "0x010000000000057E",
+                "TechnicalName": "DialogueLineFeature",
+                "Type": "Feature"
+              },
+              {
+                "Id": "0x01000000000004BA",
+                "TechnicalName": "EmojiFeature",
+                "Type": "Feature"
+              },
+              {
+                "Id": "0x01000000000004D0",
+                "TechnicalName": "FinnishSentenceFeature",
+                "Type": "Feature"
+              },
+              {
+                "Id": "0x010000000000055A",
+                "TechnicalName": "InspectableSentenceFeature",
+                "Type": "Feature"
+              },
+              {
+                "Id": "0x0100000000000440",
+                "TechnicalName": "NPCFeature",
+                "Type": "Feature"
+              }
+            ]
+          },
+          {
+            "Id": "0x030000002C0951AE",
+            "TechnicalName": "PropertyTemplates",
+            "Type": "TraitTemplatesFolder",
+            "Children": [
+              {
+                "Id": "0x03000000BB12F1B8",
+                "TechnicalName": "",
+                "Type": "TraitTemplatesTypedFolder"
+              },
+              {
+                "Id": "0x0300000037DCE3F0",
+                "TechnicalName": "",
+                "Type": "TraitTemplatesTypedFolder"
+              },
+              {
+                "Id": "0x030000006E2C178B",
+                "TechnicalName": "",
+                "Type": "TraitTemplatesTypedFolder"
+              },
+              {
+                "Id": "0x03000000D745C449",
+                "TechnicalName": "",
+                "Type": "TraitTemplatesTypedFolder"
+              },
+              {
+                "Id": "0x030000003630A240",
+                "TechnicalName": "",
+                "Type": "TraitTemplatesTypedFolder"
+              },
+              {
+                "Id": "0x030000006F82D78E",
+                "TechnicalName": "",
+                "Type": "TraitTemplatesTypedFolder"
+              }
+            ]
+          },
+          {
+            "Id": "0x030000009AF68DCD",
+            "TechnicalName": "Templates",
+            "Type": "Templates",
+            "Children": [
+              {
+                "Id": "0x0300000030635118",
+                "TechnicalName": "",
+                "Type": "TemplateTypeFolder"
+              },
+              {
+                "Id": "0x03000000DCC67F9D",
+                "TechnicalName": "",
+                "Type": "TemplateTypeFolder"
+              },
+              {
+                "Id": "0x03000000030B5ACF",
+                "TechnicalName": "",
+                "Type": "TemplateTypeFolder"
+              },
+              {
+                "Id": "0x030000008DD5C0F2",
+                "TechnicalName": "",
+                "Type": "TemplateTypeFolder"
+              },
+              {
+                "Id": "0x03000000ECC00F83",
+                "TechnicalName": "",
+                "Type": "TemplateTypeFolder"
+              },
+              {
+                "Id": "0x0300000078B45A71",
+                "TechnicalName": "",
+                "Type": "TemplateTypeFolder",
+                "Children": [
+                  {
+                    "Id": "0x010000000000059B",
+                    "TechnicalName": "DialogueLine",
+                    "Type": "Template"
+                  },
+                  {
+                    "Id": "0x010000000000054B",
+                    "TechnicalName": "Emoji",
+                    "Type": "Template"
+                  },
+                  {
+                    "Id": "0x010000000000052A",
+                    "TechnicalName": "FinnishSentence",
+                    "Type": "Template"
+                  },
+                  {
+                    "Id": "0x01000000000004FF",
+                    "TechnicalName": "InspectableSentence",
+                    "Type": "Template"
+                  },
+                  {
+                    "Id": "0x010000000000046A",
+                    "TechnicalName": "NPC",
+                    "Type": "Template"
+                  }
+                ]
+              },
+              {
+                "Id": "0x030000006D1BC275",
+                "TechnicalName": "",
+                "Type": "TemplateTypeFolder"
+              },
+              {
+                "Id": "0x0300000013DF3A1A",
+                "TechnicalName": "",
+                "Type": "TemplateTypeFolder"
+              },
+              {
+                "Id": "0x03000000CC5A07F0",
+                "TechnicalName": "",
+                "Type": "TemplateTypeFolder"
+              },
+              {
+                "Id": "0x03000000BA022E2F",
+                "TechnicalName": "",
+                "Type": "TemplateTypeFolder"
+              },
+              {
+                "Id": "0x03000000ADA9FA17",
+                "TechnicalName": "",
+                "Type": "TemplateTypeFolder"
+              },
+              {
+                "Id": "0x03000000FB371D5C",
+                "TechnicalName": "",
+                "Type": "TemplateTypeFolder"
+              },
+              {
+                "Id": "0x0300000092CF598E",
+                "TechnicalName": "",
+                "Type": "TemplateTypeFolder"
+              },
+              {
+                "Id": "0x030000005314E813",
+                "TechnicalName": "",
+                "Type": "TemplateTypeFolder"
+              },
+              {
+                "Id": "0x030000004264B29C",
+                "TechnicalName": "",
+                "Type": "TemplateTypeFolder"
+              },
+              {
+                "Id": "0x03000000F514339C",
+                "TechnicalName": "",
+                "Type": "TemplateTypeFolder"
+              },
+              {
+                "Id": "0x0300000096812FC1",
+                "TechnicalName": "",
+                "Type": "TemplateTypeFolder"
+              },
+              {
+                "Id": "0x03000000A715C057",
+                "TechnicalName": "",
+                "Type": "TemplateTypeFolder"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": "0x03000000173C3392",
+        "TechnicalName": "",
+        "Type": "RuleSets",
+        "Children": [
+          {
+            "Id": "0x01000000000000FF",
+            "TechnicalName": "",
+            "Type": "RuleSet",
+            "Children": [
+              {
+                "Id": "0x0100000000000102",
+                "TechnicalName": "",
+                "Type": "RuleSetPackage"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": "0x030000004C3DAF54",
+        "TechnicalName": "Assets",
+        "Type": "Assets",
+        "Children": [
+          {
+            "Id": "0x0100000000000109",
+            "TechnicalName": "Ufo_6F5E9717",
+            "Type": "AssetsUserFolder"
+          },
+          {
+            "Id": "0x010000000000010B",
+            "TechnicalName": "Ufo_514E7120",
+            "Type": "AssetsUserFolder"
+          },
+          {
+            "Id": "0x0100000000000105",
+            "TechnicalName": "Ufo_34E04350",
+            "Type": "AssetsUserFolder",
+            "Children": [
+              {
+                "Id": "0x0100000000000C8C",
+                "TechnicalName": "Ast_37387CE6",
+                "Type": "Asset"
+              },
+              {
+                "Id": "0x0100000000000C92",
+                "TechnicalName": "Ast_99AF1A93",
+                "Type": "Asset"
+              },
+              {
+                "Id": "0x0100000000000C9E",
+                "TechnicalName": "Ast_9C2BE120",
+                "Type": "Asset"
+              },
+              {
+                "Id": "0x0100000000000C9B",
+                "TechnicalName": "Ast_B892F96E",
+                "Type": "Asset"
+              },
+              {
+                "Id": "0x0100000000000C86",
+                "TechnicalName": "Ast_F6255BED",
+                "Type": "Asset"
+              },
+              {
+                "Id": "0x0100000000000C95",
+                "TechnicalName": "Ast_6264A1CF",
+                "Type": "Asset"
+              },
+              {
+                "Id": "0x0100000000000CA1",
+                "TechnicalName": "Ast_C69FB87A",
+                "Type": "Asset"
+              },
+              {
+                "Id": "0x0100000000000CAD",
+                "TechnicalName": "Ast_72B57B7A",
+                "Type": "Asset"
+              },
+              {
+                "Id": "0x0100000000000CAA",
+                "TechnicalName": "Ast_BDC3FBEC",
+                "Type": "Asset"
+              },
+              {
+                "Id": "0x0100000000000CA4",
+                "TechnicalName": "Ast_9F07EB79",
+                "Type": "Asset"
+              },
+              {
+                "Id": "0x0100000000000C7D",
+                "TechnicalName": "Ast_FED774C1",
+                "Type": "Asset"
+              },
+              {
+                "Id": "0x0100000000000C83",
+                "TechnicalName": "Ast_F6D6A0F6",
+                "Type": "Asset"
+              },
+              {
+                "Id": "0x0100000000000C98",
+                "TechnicalName": "Ast_0F7EE785",
+                "Type": "Asset"
+              },
+              {
+                "Id": "0x0100000000000C80",
+                "TechnicalName": "Ast_E19C7FEF",
+                "Type": "Asset"
+              },
+              {
+                "Id": "0x0100000000000C8F",
+                "TechnicalName": "Ast_7279F5E0",
+                "Type": "Asset"
+              },
+              {
+                "Id": "0x0100000000000CA7",
+                "TechnicalName": "Ast_A265C7F9",
+                "Type": "Asset"
+              },
+              {
+                "Id": "0x0100000000000CB0",
+                "TechnicalName": "Ast_8CE9687B",
+                "Type": "Asset"
+              },
+              {
+                "Id": "0x0100000000000C89",
+                "TechnicalName": "Ast_763A34A0",
+                "Type": "Asset"
+              }
+            ]
+          },
+          {
+            "Id": "0x010000000000010D",
+            "TechnicalName": "Ufo_4F53BD69",
+            "Type": "AssetsUserFolder"
+          },
+          {
+            "Id": "0x0100000000000107",
+            "TechnicalName": "Ufo_13312DED",
+            "Type": "AssetsUserFolder"
+          }
+        ]
+      }
+    ]
+  }
+}
